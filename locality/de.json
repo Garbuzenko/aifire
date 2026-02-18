@@ -9,11 +9,12 @@
     "tasks_label": "Gefährdete Aufgaben",
     "verdict": "Urteil",
     "reasoning": "Begründung",
-    "meta_title": "Wird KI meinen Job übernehmen?- Kostenlose Karriereanalyse",
-    "meta_description": "Prüfen Sie, ob künstliche Intelligenz eine Bedrohung für Ihren Beruf darstellt.Erhalten Sie eine kostenlose Risikoanalyse und eine Liste sicherer Fähigkeiten."
+    "meta_title": "Wird KI meinen Job übernehmen? – Kostenlose Karriereanalyse",
+    "meta_description": "Prüfen Sie, ob künstliche Intelligenz eine Bedrohung für Ihren Beruf darstellt. Erhalten Sie eine kostenlose Risikoanalyse und eine Liste sicherer Fähigkeiten."
   },
   "Footer": {
     "powered_by": "Unterstützt von",
-    "community": "Treten Sie der Community bei"
+    "community": "Treten Sie der Community bei",
+    "statistics": "Statistiken"
   }
 }

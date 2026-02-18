@@ -1,17 +1,19 @@
 {
   "Index": {
-    "title": "Will AI Replace You?",
-    "placeholder": "Enter your job title (e.g. UX Designer)",
-    "button": "Analyze Risk",
-    "loading": "Analyzing...",
-    "risk_label": "Replacement Risk",
-    "skills_label": "Safe Skills",
-    "tasks_label": "Tasks at Risk",
-    "meta_title": "Will AI Replace You? - AI Fire",
-    "meta_description": "Check if your job is at risk of being replaced by AI."
+    "title": "WIRD KI MEINEN JOB NEHMEN?",
+    "placeholder": "Geben Sie Ihren Beruf ein (z. B. Programmierer)",
+    "button": "Überprüfen Sie die Zukunft",
+    "loading": "Analysieren...",
+    "risk_label": "Gefahr der Automatisierung",
+    "skills_label": "Sichere Fähigkeiten",
+    "tasks_label": "Gefährdete Aufgaben",
+    "verdict": "Urteil",
+    "reasoning": "Begründung",
+    "meta_title": "Wird KI meinen Job übernehmen?- Kostenlose Karriereanalyse",
+    "meta_description": "Prüfen Sie, ob künstliche Intelligenz eine Bedrohung für Ihren Beruf darstellt.Erhalten Sie eine kostenlose Risikoanalyse und eine Liste sicherer Fähigkeiten."
   },
   "Footer": {
-    "powered_by": "Powered by",
-    "community": "Join Community"
+    "powered_by": "Unterstützt von",
+    "community": "Treten Sie der Community bei"
   }
 }

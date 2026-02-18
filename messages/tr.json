@@ -1,0 +1,19 @@
+{
+  "Index": {
+    "title": "AI İŞİMİ ALACAK MI?",
+    "placeholder": "Mesleğinizi girin (örn. Programcı)",
+    "button": "Geleceği kontrol edin",
+    "loading": "Analiz ediliyor...",
+    "risk_label": "Otomasyon riski",
+    "skills_label": "Güvenli Beceriler",
+    "tasks_label": "Risk altındaki görevler",
+    "verdict": "Karar",
+    "reasoning": "Gerekçe",
+    "meta_title": "Yapay zeka işimi elimden alacak mı?- Ücretsiz kariyer analizi",
+    "meta_description": "Yapay zekanın mesleğiniz için bir tehdit olup olmadığını kontrol edin.Ücretsiz risk analizi ve güvenli beceriler listesi edinin."
+  },
+  "Footer": {
+    "powered_by": "Destekleyen:",
+    "community": "Topluluğa katıl"
+  }
+}

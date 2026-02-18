@@ -1,17 +1,19 @@
 {
   "Index": {
-    "title": "Will AI Replace You?",
-    "placeholder": "Enter your job title (e.g. UX Designer)",
-    "button": "Analyze Risk",
-    "loading": "Analyzing...",
-    "risk_label": "Replacement Risk",
-    "skills_label": "Safe Skills",
-    "tasks_label": "Tasks at Risk",
-    "meta_title": "Will AI Replace You? - AI Fire",
-    "meta_description": "Check if your job is at risk of being replaced by AI."
+    "title": "AIが私の仕事を奪ってしまうのか？",
+    "placeholder": "あなたの職業を入力してください (例: プログラマー)",
+    "button": "未来をチェックする",
+    "loading": "分析中...",
+    "risk_label": "自動化のリスク",
+    "skills_label": "安全なスキル",
+    "tasks_label": "リスクにさらされているタスク",
+    "verdict": "評決",
+    "reasoning": "理論的根拠",
+    "meta_title": "AIが私の仕事を奪ってしまうのか？- 無料のキャリア分析",
+    "meta_description": "人工知能があなたの職業にとって脅威かどうかを確認してください。無料のリスク分析と安全なスキルのリストを入手してください。"
   },
   "Footer": {
-    "powered_by": "Powered by",
-    "community": "Join Community"
+    "powered_by": "支援者",
+    "community": "コミュニティに参加する"
   }
 }

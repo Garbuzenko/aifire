@@ -1,0 +1,20 @@
+{
+  "Index": {
+    "title": "A DO TË MARRË AI PUNËN TIME?",
+    "placeholder": "Futni profesionin tuaj (p.sh. programues)",
+    "button": "Kontrolloni të ardhmen",
+    "loading": "Duke analizuar...",
+    "risk_label": "Rreziku i automatizimit",
+    "skills_label": "Aftësitë e Sigurta",
+    "tasks_label": "Detyrat në rrezik",
+    "verdict": "Verdikti",
+    "reasoning": "Arsyetimi",
+    "meta_title": "A do ta marrë AI punën time?- Analizë e lirë e karrierës",
+    "meta_description": "Kontrolloni nëse inteligjenca artificiale është një kërcënim për profesionin tuaj. Merrni një analizë falas të rrezikut dhe listën e aftësive të sigurta."
+  },
+  "Footer": {
+    "powered_by": "Mbështetur nga",
+    "community": "Bashkohuni me komunitetin",
+    "statistics": "Statistikat"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "Index": {
+    "title": "VAI AI PAŅEMS MANU DARBU?",
+    "placeholder": "Ievadiet savu profesiju (piemēram, programmētājs)",
+    "button": "Pārbaudiet nākotni",
+    "loading": "Notiek analīze...",
+    "risk_label": "Automatizācijas risks",
+    "skills_label": "Drošas prasmes",
+    "tasks_label": "Uzdevumi apdraudēti",
+    "verdict": "Spriedums",
+    "reasoning": "Pamatojums",
+    "meta_title": "Vai AI paņems manu darbu?- Bezmaksas karjeras analīze",
+    "meta_description": "Pārbaudiet, vai mākslīgais intelekts neapdraud jūsu profesiju.Saņemiet bezmaksas riska analīzi un drošu prasmju sarakstu."
+  },
+  "Footer": {
+    "powered_by": "Atbalstīja",
+    "community": "Pievienojieties kopienai"
+  }
+}

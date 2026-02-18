@@ -1,0 +1,19 @@
+{
+  "Index": {
+    "title": "Îmi voi lua slujba?",
+    "placeholder": "Introduceți-vă profesia (de exemplu, programator)",
+    "button": "Verificați viitorul",
+    "loading": "Se analizează...",
+    "risk_label": "Risc de automatizare",
+    "skills_label": "Abilități sigure",
+    "tasks_label": "Sarcini cu risc",
+    "verdict": "Verdict",
+    "reasoning": "Motivație",
+    "meta_title": "Îmi va lua AI slujba?- Analiză gratuită a carierei",
+    "meta_description": "Verificați dacă inteligența artificială este o amenințare pentru profesia dvs. Obțineți o analiză gratuită a riscurilor și o listă de abilități sigure."
+  },
+  "Footer": {
+    "powered_by": "Sprijinit de",
+    "community": "Alăturați-vă comunității"
+  }
+}

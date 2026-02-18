@@ -1,0 +1,19 @@
+{
+  "Index": {
+    "title": "AI SẼ NHẬN CÔNG VIỆC CỦA TÔI KHÔNG?",
+    "placeholder": "Nhập nghề nghiệp của bạn (ví dụ: Lập trình viên)",
+    "button": "Kiểm tra tương lai",
+    "loading": "Đang phân tích...",
+    "risk_label": "Rủi ro tự động hóa",
+    "skills_label": "Kỹ năng an toàn",
+    "tasks_label": "Nhiệm vụ có nguy cơ",
+    "verdict": "Phán quyết",
+    "reasoning": "Cơ sở lý luận",
+    "meta_title": "AI sẽ đảm nhận công việc của tôi?- Phân tích nghề nghiệp miễn phí",
+    "meta_description": "Kiểm tra xem trí tuệ nhân tạo có phải là mối đe dọa đối với nghề nghiệp của bạn không.Nhận phân tích rủi ro miễn phí và danh sách kỹ năng an toàn."
+  },
+  "Footer": {
+    "powered_by": "Được hỗ trợ bởi",
+    "community": "Tham gia cộng đồng"
+  }
+}

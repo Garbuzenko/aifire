@@ -1,0 +1,19 @@
+{
+  "Index": {
+    "title": "ALI BO PREJEL MOJE DELO?",
+    "placeholder": "Vpišite svoj poklic (npr. programer)",
+    "button": "Preverite prihodnost",
+    "loading": "Analiziranje ...",
+    "risk_label": "Tveganje avtomatizacije",
+    "skills_label": "Varne veščine",
+    "tasks_label": "Ogrožene naloge",
+    "verdict": "Razsodba",
+    "reasoning": "Utemeljitev",
+    "meta_title": "Bo AI prevzel mojo službo?- Brezplačna analiza kariere",
+    "meta_description": "Preverite, ali umetna inteligenca ogroža vaš poklic.Pridobite brezplačno analizo tveganja in seznam varnih veščin."
+  },
+  "Footer": {
+    "powered_by": "Podpira",
+    "community": "Pridružite se skupnosti"
+  }
+}

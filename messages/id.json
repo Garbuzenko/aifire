@@ -1,0 +1,19 @@
+{
+  "Index": {
+    "title": "APAKAH AI AKAN MENGAMBIL PEKERJAAN SAYA?",
+    "placeholder": "Masukkan profesi Anda (misalnya Programmer)",
+    "button": "Periksa masa depan",
+    "loading": "Menganalisis...",
+    "risk_label": "Risiko otomatisasi",
+    "skills_label": "Keterampilan Aman",
+    "tasks_label": "Tugas beresiko",
+    "verdict": "Dakwaan",
+    "reasoning": "Alasan",
+    "meta_title": "Akankah AI mengambil pekerjaan saya?- Analisis karir gratis",
+    "meta_description": "Periksa apakah kecerdasan buatan merupakan ancaman bagi profesi Anda.Dapatkan analisis risiko gratis dan daftar keterampilan yang aman."
+  },
+  "Footer": {
+    "powered_by": "Didukung oleh",
+    "community": "Bergabunglah dengan komunitas"
+  }
+}

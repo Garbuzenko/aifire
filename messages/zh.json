@@ -1,17 +1,15 @@
 {
   "Index": {
-    "title": "Will AI Replace You?",
-    "placeholder": "Enter your job title (e.g. UX Designer)",
-    "button": "Analyze Risk",
-    "loading": "Analyzing...",
-    "risk_label": "Replacement Risk",
-    "skills_label": "Safe Skills",
-    "tasks_label": "Tasks at Risk",
-    "meta_title": "Will AI Replace You? - AI Fire",
-    "meta_description": "Check if your job is at risk of being replaced by AI."
-  },
-  "Footer": {
-    "powered_by": "Powered by",
-    "community": "Join Community"
+    "title": "AI 会取代我的工作吗？",
+    "placeholder": "输入您的职业（例如：软件工程师）",
+    "button": "检查我的未来",
+    "loading": "分析中...",
+    "risk_label": "自动化风险",
+    "skills_label": "安全技能",
+    "tasks_label": "面临风险的任务",
+    "verdict": "结论",
+    "reasoning": "理由",
+    "meta_title": "AI 会取代我的工作吗？ - 免费 AI 职业分析",
+    "meta_description": "检查您的工作是否面临 AI 自动化的风险。获取免费的风险分析和安全技能建议。"
   }
 }

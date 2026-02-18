@@ -1,0 +1,19 @@
+{
+  "Index": {
+    "title": "ADAKAH AI MENGAMBIL KERJA SAYA?",
+    "placeholder": "Masukkan profesion anda (cth Pengaturcara)",
+    "button": "Semak masa depan",
+    "loading": "Menganalisis...",
+    "risk_label": "Risiko automasi",
+    "skills_label": "Kemahiran Selamat",
+    "tasks_label": "Tugas berisiko",
+    "verdict": "keputusan",
+    "reasoning": "Rasional",
+    "meta_title": "Adakah AI akan mengambil kerja saya?- Analisis kerjaya percuma",
+    "meta_description": "Semak sama ada kecerdasan buatan adalah ancaman kepada profesion anda.Dapatkan analisis risiko percuma dan senarai kemahiran selamat."
+  },
+  "Footer": {
+    "powered_by": "Disokong oleh",
+    "community": "Sertai komuniti"
+  }
+}

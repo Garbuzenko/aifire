@@ -9,11 +9,12 @@
     "tasks_label": "Zadania zagrożone",
     "verdict": "Werdykt",
     "reasoning": "Racjonalne uzasadnienie",
-    "meta_title": "Czy sztuczna inteligencja zabierze mi pracę?- Bezpłatna analiza kariery",
-    "meta_description": "Sprawdź, czy sztuczna inteligencja stanowi zagrożenie dla Twojego zawodu.Uzyskaj bezpłatną analizę ryzyka i listę bezpiecznych umiejętności."
+    "meta_title": "Czy AI zabierze mi pracę? - Bezpłatna analiza kariery",
+    "meta_description": "Sprawdź, czy sztuczna inteligencja stanowi zagrożenie dla Twojego zawodu. Uzyskaj bezpłatną analizę ryzyka i listę bezpiecznych umiejętności."
   },
   "Footer": {
     "powered_by": "Obsługiwane przez",
-    "community": "Dołącz do społeczności"
+    "community": "Dołącz do społeczności",
+    "statistics": "Statystyka"
   }
 }

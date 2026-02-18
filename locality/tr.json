@@ -9,11 +9,12 @@
     "tasks_label": "Risk altındaki görevler",
     "verdict": "Karar",
     "reasoning": "Gerekçe",
-    "meta_title": "Yapay zeka işimi elimden alacak mı?- Ücretsiz kariyer analizi",
-    "meta_description": "Yapay zekanın mesleğiniz için bir tehdit olup olmadığını kontrol edin.Ücretsiz risk analizi ve güvenli beceriler listesi edinin."
+    "meta_title": "Yapay zeka işimi elimden alacak mı? - Ücretsiz kariyer analizi",
+    "meta_description": "Yapay zekanın mesleğiniz için bir tehdit olup olmadığını kontrol edin. Ücretsiz risk analizi ve güvenli beceriler listesi edinin."
   },
   "Footer": {
     "powered_by": "Destekleyen:",
-    "community": "Topluluğa katıl"
+    "community": "Topluluğa katıl",
+    "statistics": "İstatistikler"
   }
 }

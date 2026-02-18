@@ -1,0 +1,19 @@
+{
+  "Index": {
+    "title": "AI MƏNİM İŞİ ALACAQ?",
+    "placeholder": "Peşənizi daxil edin (məsələn, Proqramçı)",
+    "button": "Gələcəyi yoxlayın",
+    "loading": "Təhlil edilir...",
+    "risk_label": "Avtomatlaşdırma riski",
+    "skills_label": "Təhlükəsiz Bacarıqlar",
+    "tasks_label": "Risk altında olan vəzifələr",
+    "verdict": "Hökm",
+    "reasoning": "Əsaslandırma",
+    "meta_title": "AI işimi götürəcəkmi?- Pulsuz karyera təhlili",
+    "meta_description": "Süni intellektin peşəniz üçün təhlükə olub olmadığını yoxlayın.Pulsuz risk təhlili və təhlükəsiz bacarıqlar siyahısı əldə edin."
+  },
+  "Footer": {
+    "powered_by": "tərəfindən dəstəklənir",
+    "community": "İcmaya qoşulun"
+  }
+}

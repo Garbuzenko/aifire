@@ -1,36 +1,77 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Заменит ли вас ИИ? - Документация проекта
 
-## Getting Started
+[https://ai-fire.ru/ru](https://ai-fire.ru/ru)
 
-First, run the development server:
+А ещё у нас есть сообщество **AI Founders**, присоединяйся в telegram — будем вместе постигать AI.
+
+*   [Сайт сообщества](https://ai-founders.ru)
+*   [Telegram канал](https://t.me/aifoundersru)
+
+## Обзор бизнес-логики
+
+Это многоязычное веб-приложение, разработанное для оценки риска автоматизации вашей профессии с помощью искусственного интеллекта.
+
+### Ключевые функции
+
+1.  **Анализ рисков ИИ**:
+    *   Пользователи вводят название своей профессии.
+    *   Система использует DeepSeek LLM API для анализа профессии.
+    *   Она предоставляет "Оценку риска" (0-100%), вердикт, обоснование, безопасные навыки (которые трудно автоматизировать) и задачи, находящиеся под угрозой.
+
+2.  **Многоязычная поддержка**:
+    *   Сайт поддерживает 7 языков: английский, русский, испанский, немецкий, французский, китайский и японский.
+    *   Выбор языка осуществляется через префиксы URL (например, `/en`, `/ru`) и компонент переключения языка.
+    *   Список поддерживаемых языков предоставляется через внутренний API (`/api/languages`).
+
+3.  **Пользовательский интерфейс**:
+    *   Минималистичный дизайн в темной теме с высокой контрастностью.
+    *   Интерактивные анимации с использованием Framer Motion.
+    *   Интегрированный AI виджет (от `hero.ai-stickers.ru`) для визуального вовлечения.
+    *   Ссылка на логотип AI Founders в правом верхнем углу для доступа к сообществу.
+    *   **Футер**: Включает брендинг "Powered by AI Founders" с градиентным эффектом, ссылки на Telegram-сообщество и динамический год копирайта.
+
+### Техническая архитектура
+
+*   **Фреймворк**: Next.js 16 (App Router)
+*   **Стилизация**: Tailwind CSS v4
+*   **Интернационализация**: `next-intl` с middleware для маршрутизации.
+*   **Интеграция ИИ**: OpenAI SDK, настроенный для DeepSeek API.
+*   **База данных**: MySQL (через `mysql2`) для кэширования результатов анализа и отслеживания количества запросов.
+*   **Логирование ошибок**: Ошибки сервера записываются в `temp/errors/errorlog.txt`.
+
+## Начало работы
+
+Это проект [Next.js](https://nextjs.org), созданный с помощью [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+
+Сначала запустите сервер разработки:
 
 ```bash
 npm run dev
-# or
+# или
 yarn dev
-# or
+# или
 pnpm dev
-# or
+# или
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Откройте [http://localhost:3000](http://localhost:3000) в браузере, чтобы увидеть результат.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Вы можете начать редактирование страницы, изменив `app/page.tsx`. Страница автоматически обновляется по мере редактирования файла.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Этот проект использует [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) для автоматической оптимизации и загрузки [Geist](https://vercel.com/font), нового семейства шрифтов для Vercel.
 
-## Learn More
+## Узнать больше
 
-To learn more about Next.js, take a look at the following resources:
+Чтобы узнать больше о Next.js, ознакомьтесь со следующими ресурсами:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- [Документация Next.js](https://nextjs.org/docs) - узнайте о функциях и API Next.js.
+- [Learn Next.js](https://nextjs.org/learn) - интерактивное руководство по Next.js.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Вы можете посетить [GitHub-репозиторий Next.js](https://github.com/vercel/next.js) - ваши отзывы и вклад приветствуются!
 
-## Deploy on Vercel
+## Развертывание на Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Самый простой способ развернуть ваше приложение Next.js - использовать [платформу Vercel](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) от создателей Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Ознакомьтесь с нашей [документацией по развертыванию Next.js](https://nextjs.org/docs/app/building-your-application/deploying) для получения более подробной информации.

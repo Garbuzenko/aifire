@@ -1,7 +1,7 @@
 import OpenAI from 'openai';
 import { NextResponse } from 'next/server';
 import pool, { initDB } from '../../../../utils/db';
-import { RowDataPacket } from 'mysql2';
+import { RowDataPacket, ResultSetHeader } from 'mysql2';
 import fs from 'fs';
 import path from 'path';
 
@@ -9,6 +9,18 @@ const openai = new OpenAI({
   baseURL: 'https://api.deepseek.com',
   apiKey: process.env.DEEPSEEK_API_KEY
 });
+
+// List of profession categories
+const PROF_TYPES = [
+  "Автомобильный бизнес", "Административный персонал", "Безопасность", "Высший и средний менеджмент",
+  "Добыча сырья", "Домашний, обслуживающий персонал", "Закупки", "Информационные технологии",
+  "Искусство, развлечения, массмедиа", "Маркетинг, реклама, PR", "Медицина, фармацевтика",
+  "Наука, образование", "Продажи, обслуживание клиентов", "Производство, сервисное обслуживание",
+  "Рабочий персонал", "Розничная торговля", "Сельское хозяйство", "Спортивные клубы, фитнес, салоны красоты",
+  "Стратегия, инвестиции, консалтинг", "Страхование", "Строительство, недвижимость",
+  "Транспорт, логистика, перевозки", "Туризм, гостиницы, рестораны", "Управление персоналом, тренинги",
+  "Финансы, бухгалтерия", "Юристы"
+];
 
 let isDBInitialized = false;
 
@@ -41,7 +53,7 @@ export async function POST(req: Request) {
     // Check if analysis exists in DB
     try {
       const [rows] = await pool.execute<RowDataPacket[]>(
-        'SELECT analysis_json, request_count FROM profession_analysis WHERE profession = ? AND locale = ?',
+        'SELECT id, analysis_json, request_count, is_censored FROM profession_analysis WHERE profession = ? AND locale = ? AND is_censored = 0',
         [normalizedJobTitle, locale]
       );
 
@@ -54,7 +66,11 @@ export async function POST(req: Request) {
           [normalizedJobTitle, locale]
         );
 
-        return NextResponse.json(existingAnalysis.analysis_json);
+        if (existingAnalysis.is_censored) {
+             return NextResponse.json({ ...existingAnalysis.analysis_json });
+        }
+
+        return NextResponse.json({ ...existingAnalysis.analysis_json, id: existingAnalysis.id });
       }
     } catch (dbError) {
       console.error("Database error (read):", dbError);
@@ -67,13 +83,31 @@ export async function POST(req: Request) {
       Analyze the user's profession and return a JSON object.
       Language of response: ${locale}.
       
+      First, determine if the user input is a valid profession or a specific branch of a profession.
+      
+      STRICT CENSORSHIP RULES:
+      Set "is_censored" to true (and "is_profession" to false) if ANY of the following are true:
+      1. It is NOT a profession or a recognized branch of a profession.
+      2. It relates to POLITICS (politicians, political movements, ideologies, etc.).
+      3. It relates to RELIGION (religious figures, practices, beliefs, etc.).
+      4. It contains PROFANITY, MAT, or offensive language.
+      5. It relates to SEX, ADULT themes, or pornography.
+      
+      Only if NONE of the above apply, set "is_censored" to false and "is_profession" to true.
+
+      Classify the profession into exactly one of these categories (field "prof_type"):
+      ${JSON.stringify(PROF_TYPES)}
+
       JSON Structure required:
       {
-        "risk_score": (number 0-100),
-        "verdict": (short punchy title),
+        "is_profession": (boolean),
+        "is_censored": (boolean),
+        "prof_type": (string, exactly one from the list above),
+        "risk_score": (number 0-100, set to 0 if censored),
+        "verdict": (short punchy title, or "Invalid Input" if censored),
         "reasoning": (2 sentences explanation),
-        "safe_skills": (array of 3 skills hard to automate),
-        "replaced_tasks": (array of 3 tasks AI will take over)
+        "safe_skills": (array of 3 skills hard to automate, empty if censored),
+        "replaced_tasks": (array of 3 tasks AI will take over, empty if censored)
       }
     `;
 
@@ -99,18 +133,31 @@ export async function POST(req: Request) {
     }
 
     // Save to DB
+    let insertId: number | undefined;
     try {
-      await pool.execute(
-        'INSERT INTO profession_analysis (profession, locale, analysis_json, risk_percentage) VALUES (?, ?, ?, ?)',
-        [normalizedJobTitle, locale, JSON.stringify(data), data.risk_score]
+      const [result] = await pool.execute<ResultSetHeader>(
+        'INSERT INTO profession_analysis (profession, locale, analysis_json, risk_percentage, is_censored, prof_type) VALUES (?, ?, ?, ?, ?, ?)',
+        [
+            normalizedJobTitle, 
+            locale, 
+            JSON.stringify(data), 
+            data.risk_score || 0, 
+            data.is_censored || false,
+            data.prof_type || null
+        ]
       );
+      insertId = result.insertId;
     } catch (dbError) {
       console.error("Database error (write):", dbError);
       logError(dbError);
       // Continue even if save fails
     }
 
-    return NextResponse.json(data);
+    if (data.is_censored) {
+        return NextResponse.json({ ...data });
+    }
+
+    return NextResponse.json({ ...data, id: insertId });
 
   } catch (error) {
     console.error("API Error:", error);

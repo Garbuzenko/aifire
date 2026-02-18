@@ -1,33 +1,51 @@
-# Will AI Take My Job? - Project Documentation
+# Business Features Documentation
 
-## Business Logic Overview
+## Profession Analysis Censorship
+- **Goal**: Prevent profanity and non-professional inputs from being processed as valid professions.
+- **Mechanism**: The AI analyzes the input to check if it is a valid profession or business activity.
+- **Criteria**:
+  - Must be a profession or a recognized branch of a profession.
+  - Must NOT be related to politics.
+  - Must NOT be related to religion.
+  - Must NOT contain profanity or offensive language (Mat).
+  - Must NOT be related to sex or adult themes.
+- **Action**: If the input fails these checks, it is marked as `is_censored = true` in the database.
+- **Database**: A column `is_censored` (BOOLEAN) is added to the `profession_analysis` table.
 
-This application is a multilingual web tool designed to help users assess the risk of their profession being automated by Artificial Intelligence.
+## Individual Profession Analysis Page
+- **Goal**: Allow users to share and view specific profession analysis results.
+- **Mechanism**:
+  - Each profession analysis is stored in the database with a unique ID.
+  - A dynamic route `/profession/[id]` is created to display the analysis.
+  - A "Share" button is added to copy the link to the analysis.
+  - The number of views (`request_count`) is displayed on the page and incremented on each visit.
 
-### Key Features
+## Profession Analysis Redirect
+- **Goal**: Improve user experience and shareability by redirecting users to a dedicated result page after analysis.
+- **Mechanism**:
+  - After a successful analysis, the user is automatically redirected to `/profession/[id]`.
+  - The analysis result is fetched from the database using the unique ID.
+  - If the analysis fails to save or retrieve an ID, the result is displayed on the main page as a fallback.
 
-1.  **AI Risk Analysis**:
-    *   Users input their job title.
-    *   The system uses the DeepSeek LLM API to analyze the profession.
-    *   It provides a "Risk Score" (0-100%), a verdict, reasoning, safe skills (hard to automate), and tasks at risk.
+## Language Selection
+- **Goal**: Allow users to select their preferred language from a comprehensive list.
+- **Mechanism**:
+  - A modal window displays all available languages.
+  - A search bar is provided to filter languages by name or code.
+  - The language list is fetched from the `/api/languages` endpoint, which returns a list of all supported languages with their flags.
 
-2.  **Multilingual Support**:
-    *   The site supports 7 languages: English, Russian, Spanish, German, French, Chinese, and Japanese.
-    *   Language selection is handled via URL path prefixes (e.g., `/en`, `/ru`) and a custom Language Switcher component.
-    *   The list of supported languages is served via an internal API endpoint (`/api/languages`).
+## Automated Health Checks
+- **Goal**: Ensure key system components are operational immediately after startup.
+- **Mechanism**:
+  - Runs automatically if `autorun_tests=true` in `.env`.
+  - Checks database connectivity and table existence.
+  - Verifies the Language API endpoint (`/api/languages`) availability.
+  - Logs results to console and critical errors to `temp/errors/errorlog.txt`.
 
-3.  **User Interface**:
-    *   Minimalist, high-contrast dark mode design.
-    *   Interactive animations using Framer Motion.
-    *   Integrated AI Widget (from `hero.ai-stickers.ru`) for visual engagement.
-    *   AI Founders logo link added to the top right corner for community access.
-    *   **Footer**: Includes "Powered by AI Founders" branding with a gradient effect, links to the Telegram community, and a dynamic copyright year.
-
-### Technical Architecture
-
-*   **Framework**: Next.js 16 (App Router)
-*   **Styling**: Tailwind CSS v4
-*   **Internationalization**: `next-intl` with middleware for routing.
-*   **AI Integration**: OpenAI SDK configured for DeepSeek API.
-*   **Database**: MySQL (via `mysql2`) for caching analysis results and tracking request counts.
-*   **Error Logging**: Server errors are logged to `temp/errors/errorlog.txt`.
+## Profession Graveyard and Top Survivors
+- **Goal**: Engage users by displaying lists of high-risk and low-risk professions on the main page.
+- **Mechanism**:
+  - Fetches the top 5 professions with the highest risk percentage (`risk_percentage` DESC) and the top 5 with the lowest risk percentage (`risk_percentage` ASC).
+  - Displays these lists as "🔥 Top Risk Today" and "🛡️ Top Safety" on the main page.
+  - Each profession links to its detailed analysis page.
+  - Only non-censored professions (`is_censored = false`) are included.

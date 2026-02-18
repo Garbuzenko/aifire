@@ -4,7 +4,7 @@ import json
 import os
 import time
 import requests
-from googletrans import Translator
+from deep_translator import GoogleTranslator
 
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 
@@ -41,11 +41,13 @@ def translate_json(obj, dest_lang, src_lang='en'):
                     return "При поддержке"
                 if obj == "Join the community":
                     return "Вступайте в сообщество"
+                if obj == "Statistics":
+                    return "Статистика"
 
-            translator = Translator()
-            result = translator.translate(obj, dest=dest_lang, src=src_lang)
+            translator = GoogleTranslator(source=src_lang, target=dest_lang)
+            result = translator.translate(obj)
             time.sleep(0.5)  # Increased delay to avoid rate limits
-            return result.text
+            return result
         except Exception as e:
             print(f"Error translating '{obj}': {e}")
             return obj
@@ -58,9 +60,10 @@ with open(os.path.join(SCRIPT_DIR, 'en.json'), 'r', encoding='utf-8') as f:
 # Recreate ru.json
 target_languages = ['ru']
 
-# Uncomment to translate to all languages
-# languages = [lang['code'] for lang in requests.get('https://ai-stickers.ru/api/languages').json()['languages'] if lang['code'] != 'en']
-# target_languages.extend(languages)
+# Get all supported languages from Google Translator
+supported_languages = GoogleTranslator().get_supported_languages(as_dict=True)
+languages = [code for code in supported_languages.values() if code != 'en']
+target_languages.extend([l for l in languages if l not in target_languages])
 
 for lang_code in target_languages:
     print(f"Translating to {lang_code}...")

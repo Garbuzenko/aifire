@@ -9,11 +9,12 @@
     "tasks_label": "Tareas en riesgo",
     "verdict": "Veredicto",
     "reasoning": "Razón fundamental",
-    "meta_title": "¿La IA me quitará el trabajo?- Análisis de carrera gratuito",
-    "meta_description": "Comprueba si la inteligencia artificial es una amenaza para tu profesión.Obtenga un análisis de riesgos gratuito y una lista de habilidades seguras."
+    "meta_title": "¿La IA me quitará el trabajo? - Análisis profesional gratuito",
+    "meta_description": "Compruebe si la inteligencia artificial es una amenaza para su profesión. Obtenga un análisis de riesgos gratuito y una lista de habilidades seguras."
   },
   "Footer": {
     "powered_by": "Apoyado por",
-    "community": "Únete a la comunidad"
+    "community": "Únete a la comunidad",
+    "statistics": "Estadística"
   }
 }

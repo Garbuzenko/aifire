@@ -1,6 +1,6 @@
 {
   "Index": {
-    "title": "VAI PEGAR MEU TRABALHO?",
+    "title": "AI VAI PEGAR MEU TRABALHO?",
     "placeholder": "Digite sua profissão (por exemplo, programador)",
     "button": "Verifique o futuro",
     "loading": "Analisando...",
@@ -9,11 +9,12 @@
     "tasks_label": "Tarefas em risco",
     "verdict": "Veredicto",
     "reasoning": "Justificativa",
-    "meta_title": "A IA assumirá meu trabalho?- Análise de carreira gratuita",
-    "meta_description": "Verifique se a inteligência artificial é uma ameaça à sua profissão.Obtenha uma análise de risco gratuita e uma lista de habilidades seguras."
+    "meta_title": "A IA assumirá meu emprego? - Análise de carreira gratuita",
+    "meta_description": "Verifique se a inteligência artificial é uma ameaça à sua profissão. Obtenha uma análise de risco gratuita e uma lista de habilidades seguras."
   },
   "Footer": {
     "powered_by": "Apoiado por",
-    "community": "Junte-se à comunidade"
+    "community": "Junte-se à comunidade",
+    "statistics": "Estatísticas"
   }
 }

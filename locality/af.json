@@ -1,0 +1,20 @@
+{
+  "Index": {
+    "title": "SAL EK MY WERK NEEM?",
+    "placeholder": "Voer jou beroep in (bv. Programmeerder)",
+    "button": "Kontroleer die toekoms",
+    "loading": "Ontleed tans …",
+    "risk_label": "Risiko van outomatisering",
+    "skills_label": "Veilige vaardighede",
+    "tasks_label": "Take in gevaar",
+    "verdict": "Uitspraak",
+    "reasoning": "Rasionaal",
+    "meta_title": "Sal KI my werk neem?- Gratis loopbaanontleding",
+    "meta_description": "Kyk of kunsmatige intelligensie 'n bedreiging vir jou beroep is.Kry 'n gratis risiko-analise en veilige vaardigheidslys."
+  },
+  "Footer": {
+    "powered_by": "Ondersteun deur",
+    "community": "Sluit aan by die gemeenskap",
+    "statistics": "Statistiek"
+  }
+}

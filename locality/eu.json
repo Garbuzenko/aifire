@@ -1,0 +1,20 @@
+{
+  "Index": {
+    "title": "NIRE LANA HARTUKO DUT?",
+    "placeholder": "Sartu zure lanbidea (adib. Programatzailea)",
+    "button": "Egiaztatu etorkizuna",
+    "loading": "Aztertzen...",
+    "risk_label": "Automatizazioaren arriskua",
+    "skills_label": "Trebetasun seguruak",
+    "tasks_label": "Arriskuan dauden zereginak",
+    "verdict": "Epaia",
+    "reasoning": "Arrazoia",
+    "meta_title": "AIk hartuko al du nire lana?- Doako karreraren azterketa",
+    "meta_description": "Egiaztatu adimen artifiziala zure lanbiderako mehatxu bat den. Lortu doako arriskuen azterketa eta trebetasun seguruen zerrenda."
+  },
+  "Footer": {
+    "powered_by": "-k lagunduta",
+    "community": "Sartu komunitatean",
+    "statistics": "Estatistikak"
+  }
+}

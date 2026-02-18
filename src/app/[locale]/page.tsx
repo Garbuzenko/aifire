@@ -2,11 +2,16 @@
 
 import { useTranslations } from 'next-intl';
 import { useState } from 'react';
-import { useParams } from 'next/navigation';
+import { useParams, useRouter } from 'next/navigation';
 import { motion, AnimatePresence } from 'framer-motion';
+import Image from 'next/image';
 import LanguageSwitcher from '@/app/components/LanguageSwitcher';
 
+import ShareButton from '@/app/components/ShareButton';
+import ProfessionStats from '@/app/components/ProfessionStats';
+
 interface AnalysisResult {
+  id?: number;
   risk_score: number;
   verdict: string;
   reasoning: string;
@@ -17,6 +22,7 @@ interface AnalysisResult {
 export default function Home() {
   const t = useTranslations('Index');
   const params = useParams();
+  const router = useRouter();
   const [job, setJob] = useState('');
   const [result, setResult] = useState<AnalysisResult | null>(null);
   const [loading, setLoading] = useState(false);
@@ -33,7 +39,12 @@ export default function Home() {
         body: JSON.stringify({ jobTitle: job, locale }),
       });
       const data = await res.json() as AnalysisResult;
-      setResult(data);
+      
+      if (data.id) {
+        router.push(`/${locale}/profession/${data.id}`);
+      } else {
+        setResult(data);
+      }
     } catch (e) {
       console.error(e);
     } finally {
@@ -50,21 +61,18 @@ export default function Home() {
 
       {/* AI Founders Logo */}
       <a 
-        href="https://ai-founders.ru/ru" 
+        href="https://ai-fire.ru/ru" 
         target="_blank" 
         rel="noopener noreferrer" 
         className="fixed top-4 right-4 z-50 hover:opacity-80 transition-opacity"
       >
-        <img 
+        <Image 
           alt="AI Founders" 
-          fetchPriority="high" 
-          width="28" 
-          height="28" 
-          decoding="async" 
-          data-nimg="1" 
+          width={28} 
+          height={28} 
           className="h-7 md:h-8 w-auto" 
-          style={{color:'transparent'}} 
           src="https://storage.yandexcloud.net/stickers/stickers-AgAD_g0AAoGJqEg.gif" 
+          unoptimized
         />
       </a>
 
@@ -92,6 +100,8 @@ export default function Home() {
             {loading ? t('loading') : t('button')}
           </button>
         </div>
+
+        {!result && <ProfessionStats />}
 
         <AnimatePresence>
           {result && (
@@ -136,6 +146,16 @@ export default function Home() {
                   </ul>
                 </div>
               </div>
+
+              {result.id && (
+                <div className="flex justify-center mt-8 pt-6 border-t border-gray-800">
+                  <ShareButton 
+                    url={`${typeof window !== 'undefined' ? window.location.origin : ''}/${Array.isArray(params.locale) ? params.locale[0] : params.locale}/profession/${result.id}`} 
+                    title={job}
+                    riskScore={result.risk_score}
+                  />
+                </div>
+              )}
             </motion.div>
           )}
         </AnimatePresence>

@@ -9,11 +9,12 @@
     "tasks_label": "Compiti a rischio",
     "verdict": "Verdetto",
     "reasoning": "Motivazione",
-    "meta_title": "L’intelligenza artificiale mi prenderà il lavoro?- Analisi gratuita della carriera",
-    "meta_description": "Verifica se l'intelligenza artificiale rappresenta una minaccia per la tua professione.Ottieni un'analisi dei rischi gratuita e un elenco di competenze sicure."
+    "meta_title": "L'intelligenza artificiale prenderà il mio lavoro? - Analisi professionale gratuita",
+    "meta_description": "Verifica se l'intelligenza artificiale rappresenta una minaccia per la tua professione. Ottieni un'analisi dei rischi gratuita e un elenco di competenze sicure."
   },
   "Footer": {
     "powered_by": "Supportato da",
-    "community": "Unisciti alla comunità"
+    "community": "Unisciti alla comunità",
+    "statistics": "Statistiche"
   }
 }

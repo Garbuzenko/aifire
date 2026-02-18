@@ -14,6 +14,7 @@
   },
   "Footer": {
     "powered_by": "Supported by",
-    "community": "Join the community"
+    "community": "Join the community",
+    "statistics": "Statistics"
   }
 }

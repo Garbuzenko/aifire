@@ -1,0 +1,19 @@
+{
+  "Index": {
+    "title": "HOĆE LI AI PRIHVATITI MOJ POSAO?",
+    "placeholder": "Unesite svoje zanimanje (npr. programer)",
+    "button": "Provjerite budućnost",
+    "loading": "Analiziranje...",
+    "risk_label": "Rizik od automatizacije",
+    "skills_label": "Sigurne vještine",
+    "tasks_label": "Zadaci u opasnosti",
+    "verdict": "Presuda",
+    "reasoning": "Obrazloženje",
+    "meta_title": "Hoće li umjetna inteligencija preuzeti moj posao?- Besplatna analiza karijere",
+    "meta_description": "Provjerite je li umjetna inteligencija prijetnja vašoj profesiji.Dobijte besplatnu analizu rizika i popis sigurnih vještina."
+  },
+  "Footer": {
+    "powered_by": "Podržano od",
+    "community": "Pridružite se zajednici"
+  }
+}

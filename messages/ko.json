@@ -1,0 +1,19 @@
+{
+  "Index": {
+    "title": "AI가 내 직업을 빼앗을 것인가?",
+    "placeholder": "직업을 입력하세요(예: 프로그래머)",
+    "button": "미래를 확인하세요",
+    "loading": "분석 중...",
+    "risk_label": "자동화의 위험",
+    "skills_label": "안전한 기술",
+    "tasks_label": "위험에 처한 작업",
+    "verdict": "평결",
+    "reasoning": "이론적 해석",
+    "meta_title": "AI가 내 직업을 빼앗아갈까?- 무료 경력 분석",
+    "meta_description": "인공지능이 당신의 직업에 위협이 되는지 확인해보세요.무료 위험 분석 및 안전한 기술 목록을 받아보세요."
+  },
+  "Footer": {
+    "powered_by": "지원 대상",
+    "community": "커뮤니티에 가입하세요"
+  }
+}

@@ -9,11 +9,12 @@
     "tasks_label": "위험에 처한 작업",
     "verdict": "평결",
     "reasoning": "이론적 해석",
-    "meta_title": "AI가 내 직업을 빼앗아갈까?- 무료 경력 분석",
-    "meta_description": "인공지능이 당신의 직업에 위협이 되는지 확인해보세요.무료 위험 분석 및 안전한 기술 목록을 받아보세요."
+    "meta_title": "AI가 내 직업을 빼앗아갈까? - 무료 경력 분석",
+    "meta_description": "인공 지능이 직업에 위협이 되는지 확인하세요. 무료 위험 분석 및 안전한 기술 목록을 받아보세요."
   },
   "Footer": {
     "powered_by": "지원 대상",
-    "community": "커뮤니티에 가입하세요"
+    "community": "커뮤니티에 가입하세요",
+    "statistics": "통계"
   }
 }

@@ -9,11 +9,12 @@
     "tasks_label": "リスクにさらされているタスク",
     "verdict": "評決",
     "reasoning": "理論的根拠",
-    "meta_title": "AIが私の仕事を奪ってしまうのか？- 無料のキャリア分析",
+    "meta_title": "AI が私の仕事を奪うのか? - 無料のキャリア分析",
     "meta_description": "人工知能があなたの職業にとって脅威かどうかを確認してください。無料のリスク分析と安全なスキルのリストを入手してください。"
   },
   "Footer": {
     "powered_by": "支援者",
-    "community": "コミュニティに参加する"
+    "community": "コミュニティに参加する",
+    "statistics": "統計"
   }
 }

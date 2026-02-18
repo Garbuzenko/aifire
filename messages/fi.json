@@ -1,0 +1,19 @@
+{
+  "Index": {
+    "title": "OTAKO TYÖNI?",
+    "placeholder": "Anna ammattisi (esim. ohjelmoija)",
+    "button": "Tarkista tulevaisuus",
+    "loading": "Analysoidaan...",
+    "risk_label": "Automaatioriski",
+    "skills_label": "Turvalliset taidot",
+    "tasks_label": "Tehtävät vaarassa",
+    "verdict": "Tuomio",
+    "reasoning": "Perustelut",
+    "meta_title": "Ottaako tekoäly työni?- Ilmainen uraanalyysi",
+    "meta_description": "Tarkista, onko tekoäly uhka ammattillesi.Hanki ilmainen riskianalyysi ja turvallisten taitojen luettelo."
+  },
+  "Footer": {
+    "powered_by": "Tukee",
+    "community": "Liity yhteisöön"
+  }
+}

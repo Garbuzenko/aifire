@@ -3,6 +3,7 @@
 import { useRouter, usePathname } from 'next/navigation';
 import { useEffect, useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
+import { useTranslations } from 'next-intl';
 
 interface Language {
   code: string;
@@ -11,10 +12,12 @@ interface Language {
 }
 
 export default function LanguageSwitcher() {
+  const t = useTranslations('LanguageSwitcher');
   const router = useRouter();
   const pathname = usePathname();
   const [languages, setLanguages] = useState<Language[]>([]);
   const [isOpen, setIsOpen] = useState(false);
+  const [searchQuery, setSearchQuery] = useState('');
 
   useEffect(() => {
     fetch('/api/languages')
@@ -25,10 +28,20 @@ export default function LanguageSwitcher() {
   const currentLocale = pathname.split('/')[1] || 'en';
   const currentLanguage = languages.find((l) => l.code === currentLocale);
 
+  const filteredLanguages = languages.filter((lang) =>
+    lang.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
+    lang.code.toLowerCase().includes(searchQuery.toLowerCase())
+  );
+
+  const closeModal = () => {
+    setIsOpen(false);
+    setSearchQuery('');
+  };
+
   const switchLanguage = (locale: string) => {
     const newPath = pathname.replace(`/${currentLocale}`, `/${locale}`);
     router.push(newPath);
-    setIsOpen(false);
+    closeModal();
   };
 
   if (languages.length === 0) return null;
@@ -57,7 +70,7 @@ export default function LanguageSwitcher() {
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               exit={{ opacity: 0 }}
-              onClick={() => setIsOpen(false)}
+              onClick={closeModal}
               className="absolute inset-0 bg-black/60 backdrop-blur-sm"
             />
             
@@ -68,9 +81,9 @@ export default function LanguageSwitcher() {
               className="relative w-full max-w-sm bg-gray-900 border border-gray-700 rounded-2xl shadow-2xl overflow-hidden z-10"
             >
               <div className="p-4 border-b border-gray-800 flex justify-between items-center bg-gray-900/50">
-                <h3 className="text-lg font-semibold text-white">Select Language</h3>
+                <h3 className="text-lg font-semibold text-white">{t('select_language')}</h3>
                 <button 
-                  onClick={() => setIsOpen(false)}
+                  onClick={closeModal}
                   className="p-2 hover:bg-gray-800 rounded-full transition-colors text-gray-400 hover:text-white"
                 >
                   <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -78,10 +91,21 @@ export default function LanguageSwitcher() {
                   </svg>
                 </button>
               </div>
+
+              <div className="p-2 border-b border-gray-800">
+                <input
+                  type="text"
+                  placeholder={t('search_placeholder')}
+                  value={searchQuery}
+                  onChange={(e) => setSearchQuery(e.target.value)}
+                  className="w-full px-4 py-2 bg-gray-800 text-white rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-500 placeholder-gray-500"
+                  autoFocus
+                />
+              </div>
               
               <div className="max-h-[60vh] overflow-y-auto p-2 custom-scrollbar">
                 <div className="grid gap-1">
-                  {languages.map((lang) => (
+                  {filteredLanguages.map((lang) => (
                     <button
                       key={lang.code}
                       onClick={() => switchLanguage(lang.code)}
