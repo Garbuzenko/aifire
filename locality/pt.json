@@ -1,0 +1,19 @@
+{
+  "Index": {
+    "title": "VAI PEGAR MEU TRABALHO?",
+    "placeholder": "Digite sua profissão (por exemplo, programador)",
+    "button": "Verifique o futuro",
+    "loading": "Analisando...",
+    "risk_label": "Risco de automação",
+    "skills_label": "Habilidades Seguras",
+    "tasks_label": "Tarefas em risco",
+    "verdict": "Veredicto",
+    "reasoning": "Justificativa",
+    "meta_title": "A IA assumirá meu trabalho?- Análise de carreira gratuita",
+    "meta_description": "Verifique se a inteligência artificial é uma ameaça à sua profissão.Obtenha uma análise de risco gratuita e uma lista de habilidades seguras."
+  },
+  "Footer": {
+    "powered_by": "Apoiado por",
+    "community": "Junte-se à comunidade"
+  }
+}

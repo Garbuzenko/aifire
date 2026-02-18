@@ -1,0 +1,19 @@
+{
+  "Index": {
+    "title": "PRIJÍM AI MOJU PRÁCU?",
+    "placeholder": "Zadajte svoju profesiu (napr. programátor)",
+    "button": "Skontrolujte budúcnosť",
+    "loading": "Prebieha analýza...",
+    "risk_label": "Riziko automatizácie",
+    "skills_label": "Bezpečné zručnosti",
+    "tasks_label": "Úlohy v ohrození",
+    "verdict": "Verdikt",
+    "reasoning": "Odôvodnenie",
+    "meta_title": "Zoberie mi AI prácu?- bezplatná analýza kariéry",
+    "meta_description": "Skontrolujte, či umelá inteligencia nie je hrozbou pre vašu profesiu.Získajte bezplatnú analýzu rizík a zoznam bezpečných zručností."
+  },
+  "Footer": {
+    "powered_by": "S podporou",
+    "community": "Pripojte sa ku komunite"
+  }
+}

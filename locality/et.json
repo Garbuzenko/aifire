@@ -1,0 +1,19 @@
+{
+  "Index": {
+    "title": "KAS AI VÕTAB MU TÖÖ?",
+    "placeholder": "Sisesta oma elukutse (nt programmeerija)",
+    "button": "Kontrollige tulevikku",
+    "loading": "Analüüsimine...",
+    "risk_label": "Automatiseerimise oht",
+    "skills_label": "Ohutuid oskusi",
+    "tasks_label": "Ülesanded ohus",
+    "verdict": "Kohtuotsus",
+    "reasoning": "Põhjendus",
+    "meta_title": "Kas AI võtab mu töö?- Tasuta karjäärianalüüs",
+    "meta_description": "Kontrollige, kas tehisintellekt ohustab teie elukutset.Hankige tasuta riskianalüüs ja ohutute oskuste nimekiri."
+  },
+  "Footer": {
+    "powered_by": "Toetavad",
+    "community": "Liituge kogukonnaga"
+  }
+}

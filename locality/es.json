@@ -1,0 +1,19 @@
+{
+  "Index": {
+    "title": "¿AI TOMARÁ MI TRABAJO?",
+    "placeholder": "Ingrese su profesión (por ejemplo, programador)",
+    "button": "comprobar el futuro",
+    "loading": "Analizando...",
+    "risk_label": "Riesgo de automatización",
+    "skills_label": "Habilidades seguras",
+    "tasks_label": "Tareas en riesgo",
+    "verdict": "Veredicto",
+    "reasoning": "Razón fundamental",
+    "meta_title": "¿La IA me quitará el trabajo?- Análisis de carrera gratuito",
+    "meta_description": "Comprueba si la inteligencia artificial es una amenaza para tu profesión.Obtenga un análisis de riesgos gratuito y una lista de habilidades seguras."
+  },
+  "Footer": {
+    "powered_by": "Apoyado por",
+    "community": "Únete a la comunidad"
+  }
+}

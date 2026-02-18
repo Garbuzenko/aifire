@@ -1,0 +1,19 @@
+{
+  "Index": {
+    "title": "VIL JEG TAGE MIT JOB?",
+    "placeholder": "Indtast dit erhverv (f.eks. programmør)",
+    "button": "Tjek fremtiden",
+    "loading": "Analyserer...",
+    "risk_label": "Risiko for automatisering",
+    "skills_label": "Sikre færdigheder",
+    "tasks_label": "Opgaver i fare",
+    "verdict": "Dom",
+    "reasoning": "Begrundelse",
+    "meta_title": "Vil AI tage mit job?- Gratis karriereanalyse",
+    "meta_description": "Tjek, om kunstig intelligens er en trussel mod dit erhverv.Få en gratis risikoanalyse og sikker færdighedsliste."
+  },
+  "Footer": {
+    "powered_by": "Støttet af",
+    "community": "Deltag i fællesskabet"
+  }
+}

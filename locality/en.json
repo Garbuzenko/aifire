@@ -1,0 +1,19 @@
+{
+  "Index": {
+    "title": "WILL AI TAKE MY JOB?",
+    "placeholder": "Enter your profession (eg Programmer)",
+    "button": "Check the future",
+    "loading": "Analyzing...",
+    "risk_label": "Risk of automation",
+    "skills_label": "Safe Skills",
+    "tasks_label": "Tasks at risk",
+    "verdict": "Verdict",
+    "reasoning": "Rationale",
+    "meta_title": "Will AI take my job?- Free career analysis",
+    "meta_description": "Check if artificial intelligence is a threat to your profession.Get a free risk analysis and safe skills list."
+  },
+  "Footer": {
+    "powered_by": "Supported by",
+    "community": "Join the community"
+  }
+}

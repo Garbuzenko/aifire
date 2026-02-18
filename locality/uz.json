@@ -1,0 +1,19 @@
+{
+  "Index": {
+    "title": "AI MENING ISHIMNI OLADIMI?",
+    "placeholder": "Kasbingizni kiriting (masalan, dasturchi)",
+    "button": "Kelajakni tekshiring",
+    "loading": "Tahlil qilinmoqda...",
+    "risk_label": "Avtomatlashtirish xavfi",
+    "skills_label": "Xavfsiz ko'nikmalar",
+    "tasks_label": "Xavf ostidagi vazifalar",
+    "verdict": "Hukm",
+    "reasoning": "Mantiqiy asos",
+    "meta_title": "AI mening ishimni oladimi?- Bepul martaba tahlili",
+    "meta_description": "Sun'iy intellekt kasbingiz uchun tahdid ekanligini tekshiring.Bepul xavf tahlili va xavfsiz ko'nikmalar ro'yxatini oling."
+  },
+  "Footer": {
+    "powered_by": "tomonidan qo'llab-quvvatlanadi",
+    "community": "Jamiyatga qoʻshiling"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "Index": {
+    "title": "VIL JEG TA JOBBEN MIN?",
+    "placeholder": "Skriv inn yrket ditt (f.eks. programmerer)",
+    "button": "Sjekk fremtiden",
+    "loading": "Analyserer...",
+    "risk_label": "Risiko for automatisering",
+    "skills_label": "Trygge ferdigheter",
+    "tasks_label": "Oppgaver i faresonen",
+    "verdict": "Kjennelse",
+    "reasoning": "Begrunnelse",
+    "meta_title": "Vil AI ta jobben min?- Gratis karriereanalyse",
+    "meta_description": "Sjekk om kunstig intelligens er en trussel mot yrket ditt.Få en gratis risikoanalyse og sikker ferdighetsliste."
+  },
+  "Footer": {
+    "powered_by": "Støttes av",
+    "community": "Bli med i fellesskapet"
+  }
+}

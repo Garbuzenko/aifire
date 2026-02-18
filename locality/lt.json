@@ -1,0 +1,19 @@
+{
+  "Index": {
+    "title": "AR AI PAIMSI MANO DARBO?",
+    "placeholder": "Įveskite savo profesiją (pvz., programuotojas)",
+    "button": "Patikrinkite ateitį",
+    "loading": "Analizuojama...",
+    "risk_label": "Automatizavimo rizika",
+    "skills_label": "Saugūs įgūdžiai",
+    "tasks_label": "Rizikos užduotys",
+    "verdict": "Verdiktas",
+    "reasoning": "Loginis pagrindas",
+    "meta_title": "Ar AI imsis mano darbo?- Nemokama karjeros analizė",
+    "meta_description": "Patikrinkite, ar dirbtinis intelektas nekelia grėsmės jūsų profesijai.Gaukite nemokamą rizikos analizę ir saugių įgūdžių sąrašą."
+  },
+  "Footer": {
+    "powered_by": "Palaikoma",
+    "community": "Prisijunkite prie bendruomenės"
+  }
+}

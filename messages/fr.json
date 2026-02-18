@@ -1,0 +1,17 @@
+{
+  "Index": {
+    "title": "Will AI Replace You?",
+    "placeholder": "Enter your job title (e.g. UX Designer)",
+    "button": "Analyze Risk",
+    "loading": "Analyzing...",
+    "risk_label": "Replacement Risk",
+    "skills_label": "Safe Skills",
+    "tasks_label": "Tasks at Risk",
+    "meta_title": "Will AI Replace You? - AI Fire",
+    "meta_description": "Check if your job is at risk of being replaced by AI."
+  },
+  "Footer": {
+    "powered_by": "Powered by",
+    "community": "Join Community"
+  }
+}

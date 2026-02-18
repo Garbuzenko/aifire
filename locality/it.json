@@ -1,0 +1,19 @@
+{
+  "Index": {
+    "title": "PRENDERO' IL MIO LAVORO?",
+    "placeholder": "Inserisci la tua professione (es. Programmatore)",
+    "button": "Controlla il futuro",
+    "loading": "Analizzando...",
+    "risk_label": "Rischio di automazione",
+    "skills_label": "Competenze sicure",
+    "tasks_label": "Compiti a rischio",
+    "verdict": "Verdetto",
+    "reasoning": "Motivazione",
+    "meta_title": "L’intelligenza artificiale mi prenderà il lavoro?- Analisi gratuita della carriera",
+    "meta_description": "Verifica se l'intelligenza artificiale rappresenta una minaccia per la tua professione.Ottieni un'analisi dei rischi gratuita e un elenco di competenze sicure."
+  },
+  "Footer": {
+    "powered_by": "Supportato da",
+    "community": "Unisciti alla comunità"
+  }
+}

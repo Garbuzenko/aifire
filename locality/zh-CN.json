@@ -1,0 +1,19 @@
+{
+  "Index": {
+    "title": "人工智能会抢走我的工作吗？",
+    "placeholder": "输入您的职业（例如程序员）",
+    "button": "检查未来",
+    "loading": "正在分析...",
+    "risk_label": "自动化的风险",
+    "skills_label": "安全技能",
+    "tasks_label": "有风险的任务",
+    "verdict": "判决",
+    "reasoning": "基本原理",
+    "meta_title": "人工智能会抢走我的工作吗？- 免费职业分析",
+    "meta_description": "检查人工智能是否对您的职业构成威胁。获取免费的风险分析和安全技能列表。"
+  },
+  "Footer": {
+    "powered_by": "支持者",
+    "community": "加入社区"
+  }
+}

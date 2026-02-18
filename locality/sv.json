@@ -1,0 +1,19 @@
+{
+  "Index": {
+    "title": "KOMMER JAG TA MITT JOBB?",
+    "placeholder": "Ange ditt yrke (t.ex. programmerare)",
+    "button": "Kolla framtiden",
+    "loading": "Analyserar...",
+    "risk_label": "Risk för automatisering",
+    "skills_label": "Säkra färdigheter",
+    "tasks_label": "Uppgifter i riskzonen",
+    "verdict": "Dom",
+    "reasoning": "Logisk grund",
+    "meta_title": "Kommer AI att ta mitt jobb?- Gratis karriäranalys",
+    "meta_description": "Kontrollera om artificiell intelligens är ett hot mot ditt yrke.Få en gratis riskanalys och säker kompetenslista."
+  },
+  "Footer": {
+    "powered_by": "Stöds av",
+    "community": "Gå med i gemenskapen"
+  }
+}

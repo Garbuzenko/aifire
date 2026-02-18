@@ -1,0 +1,19 @@
+{
+  "Index": {
+    "title": "Vezme AI MOU PRÁCI?",
+    "placeholder": "Zadejte svou profesi (např. programátor)",
+    "button": "Zkontrolujte budoucnost",
+    "loading": "Probíhá analýza...",
+    "risk_label": "Riziko automatizace",
+    "skills_label": "Bezpečné dovednosti",
+    "tasks_label": "Úkoly v ohrožení",
+    "verdict": "Výrok",
+    "reasoning": "Odůvodnění",
+    "meta_title": "Vezme mi AI práci?- bezplatná analýza kariéry",
+    "meta_description": "Zkontrolujte, zda umělá inteligence není hrozbou pro vaši profesi.Získejte bezplatnou analýzu rizik a seznam bezpečných dovedností."
+  },
+  "Footer": {
+    "powered_by": "Podporováno",
+    "community": "Připojte se ke komunitě"
+  }
+}

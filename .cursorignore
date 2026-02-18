@@ -1,0 +1,18 @@
+# Игнорируем скомпилированные файлы Python
+*.pyc
+__pycache__/
+# Ignore Node.js dependencies (do not index for agent)
+node_modules/
+
+# Игнорируем виртуальные окружения
+.venv/
+venv/
+
+# Игнорируем данные (если не нужны агенту)
+data/
+
+# Игнорируем логи ошибок из temp
+temp/errors/*.txt
+
+# Явно разрешаем .env файл для агента
+!.env

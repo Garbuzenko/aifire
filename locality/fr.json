@@ -1,0 +1,19 @@
+{
+  "Index": {
+    "title": "EST-CE QUE AI PREND MON TRAVAIL ?",
+    "placeholder": "Entrez votre profession (par exemple programmeur)",
+    "button": "Vérifiez l'avenir",
+    "loading": "Analyser...",
+    "risk_label": "Risque d'automatisation",
+    "skills_label": "Compétences sécuritaires",
+    "tasks_label": "Tâches à risque",
+    "verdict": "Verdict",
+    "reasoning": "Raisonnement",
+    "meta_title": "L'IA va-t-elle prendre mon travail ?- Analyse de carrière gratuite",
+    "meta_description": "Vérifiez si l'intelligence artificielle est une menace pour votre profession.Obtenez une analyse gratuite des risques et une liste de compétences sûres."
+  },
+  "Footer": {
+    "powered_by": "Soutenu par",
+    "community": "Rejoignez la communauté"
+  }
+}
