@@ -1,0 +1,20 @@
+{
+  "Index": {
+    "title": "WËLLT EI MENG JOB?",
+    "placeholder": "Gitt Äre Beruff (zB Programmer)",
+    "button": "Iwwerpréift d'Zukunft",
+    "loading": "Analyséieren ...",
+    "risk_label": "Risiko vun Automatisatioun",
+    "skills_label": "Sécher Fäegkeeten",
+    "tasks_label": "Aufgaben a Gefor",
+    "verdict": "Uerteel",
+    "reasoning": "Begrënnung",
+    "meta_title": "Wäert AI meng Aarbecht huelen? - Gratis Karriäranalyse",
+    "meta_description": "Check if kënschtlech Intelligenz ass eng Gefor fir Äre Beruff.Get a free risk analysis and safe skills list."
+  },
+  "Footer": {
+    "powered_by": "Ënnerstëtzt vun",
+    "community": "Maacht mat der Gemeinschaft",
+    "statistics": "Statistiken"
+  }
+}

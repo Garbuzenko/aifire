@@ -1,0 +1,20 @@
+{
+  "Index": {
+    "title": "AN BHFUIL AI AG TÓGÁLA MO PHOST?",
+    "placeholder": "Cuir isteach do ghairm (m.sh. Ríomhchláraitheoir)",
+    "button": "Seiceáil an todhchaí",
+    "loading": "Ag déanamh anailíse...",
+    "risk_label": "Riosca uathoibrithe",
+    "skills_label": "Scileanna Sábháilte",
+    "tasks_label": "Tascanna i mbaol",
+    "verdict": "Fíorasc",
+    "reasoning": "Réasúnaíocht",
+    "meta_title": "An nglacfaidh AI mo phost? - Anailís ghairme saor in aisce",
+    "meta_description": "Seiceáil an bhfuil intleacht shaorga ina bagairt ar do ghairm. Faigh liosta anailíse riosca agus scileanna sábháilte saor in aisce."
+  },
+  "Footer": {
+    "powered_by": "Tacaithe ag",
+    "community": "Bí ar an bpobal",
+    "statistics": "Staitisticí"
+  }
+}

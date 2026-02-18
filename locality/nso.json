@@ -1,0 +1,20 @@
+{
+  "Index": {
+    "title": "NA AI E TLA TŠEA MOŠOMO WA KA?",
+    "placeholder": "Tsena profešene ya gago (mohlala, Morulaganyi wa Mananeo) .",
+    "button": "Lekola bokamoso",
+    "loading": "Go sekaseka...",
+    "risk_label": "Kotsi ya go itiriša",
+    "skills_label": "Bokgoni bjo bo Šireletšegilego",
+    "tasks_label": "Mešomo yeo e lego kotsing",
+    "verdict": "Kahlolo",
+    "reasoning": "Lebaka la ka lona",
+    "meta_title": "Na AI e tla tšea mošomo wa ka?- Tshekatsheko ya mošomo ya mahala",
+    "meta_description": "Lekola ge eba bohlale bja maitirelo e le tšhošetšo go profešene ya gago.Hwetša tshekatsheko ya kotsi ya mahala le lenaneo la mabokgoni a bolokegilego."
+  },
+  "Footer": {
+    "powered_by": "E thekgwa ke",
+    "community": "Eba le setšhaba",
+    "statistics": "Dipalopalo"
+  }
+}

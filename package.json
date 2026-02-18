@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "kill-port 3011 && node -e \"setTimeout(() => {}, 2000)\" && next dev --webpack -p 3011",
+    "dev": "node utils/clean-start.js",
     "build": "next build",
     "start": "next start",
     "lint": "eslint"

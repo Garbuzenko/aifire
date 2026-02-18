@@ -9,11 +9,12 @@
     "tasks_label": "Uzdevumi apdraudēti",
     "verdict": "Spriedums",
     "reasoning": "Pamatojums",
-    "meta_title": "Vai AI paņems manu darbu?- Bezmaksas karjeras analīze",
-    "meta_description": "Pārbaudiet, vai mākslīgais intelekts neapdraud jūsu profesiju.Saņemiet bezmaksas riska analīzi un drošu prasmju sarakstu."
+    "meta_title": "Vai AI uzņemsies manu darbu? - Bezmaksas karjeras analīze",
+    "meta_description": "Pārbaudiet, vai mākslīgais intelekts neapdraud jūsu profesiju. Saņemiet bezmaksas riska analīzi un drošu prasmju sarakstu."
   },
   "Footer": {
     "powered_by": "Atbalstīja",
-    "community": "Pievienojieties kopienai"
+    "community": "Pievienojieties kopienai",
+    "statistics": "Statistika"
   }
 }

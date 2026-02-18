@@ -1,0 +1,20 @@
+{
+  "Index": {
+    "title": "AI PICCARÀU U MEU TRAVAIL ?",
+    "placeholder": "Inserite a vostra professione (per esempiu, Programmer)",
+    "button": "Verificate u futuru",
+    "loading": "Analizendu...",
+    "risk_label": "Rischiu d'automatizazione",
+    "skills_label": "Cumpetenze sicure",
+    "tasks_label": "I travaglii à risicu",
+    "verdict": "Verdict",
+    "reasoning": "Motivazione",
+    "meta_title": "L'AI pigliarà u mo travagliu? - Analisi di carriera gratuita",
+    "meta_description": "Verificate se l'intelligenza artificiale hè una minaccia per a vostra professione. Ottene un analisi di risichi gratuitu è ​​una lista di cumpetenze sicura."
+  },
+  "Footer": {
+    "powered_by": "Supportatu da",
+    "community": "Unisci à a cumunità",
+    "statistics": "Statistiche"
+  }
+}

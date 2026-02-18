@@ -1,0 +1,20 @@
+{
+  "Index": {
+    "title": "INGABA NDIYAWUTHATHA UMSEBENZI WAM?",
+    "placeholder": "Ngenisa umsebenzi wakho (umz. uMcwangcisi)",
+    "button": "Jonga ikamva",
+    "loading": "Iyahlalutya...",
+    "risk_label": "Umngcipheko wokuzenzekela",
+    "skills_label": "Izakhono eziKhuselekileyo",
+    "tasks_label": "Imisebenzi esemngciphekweni",
+    "verdict": "Isigwebo",
+    "reasoning": "Ingqiqo",
+    "meta_title": "Ngaba i-AI iza kuwuthatha umsebenzi wam?- Uhlalutyo lomsebenzi wasimahla",
+    "meta_description": "Jonga ukuba ubukrelekrele bokwenziwa buyingozi kwi-profession.Get uhlalutyo lomngcipheko lwasimahla kunye noluhlu lwezakhono ezikhuselekileyo."
+  },
+  "Footer": {
+    "powered_by": "Ixhaswa ngu",
+    "community": "Joyina uluntu",
+    "statistics": "Amanani"
+  }
+}

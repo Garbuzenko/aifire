@@ -1,0 +1,20 @@
+{
+  "Index": {
+    "title": "VAI O MEU TRABALLO?",
+    "placeholder": "Introduce a túa profesión (por exemplo, programador)",
+    "button": "Comproba o futuro",
+    "loading": "Analizando...",
+    "risk_label": "Risco de automatización",
+    "skills_label": "Habilidades seguras",
+    "tasks_label": "Tarefas en risco",
+    "verdict": "Veredicto",
+    "reasoning": "Xustificación",
+    "meta_title": "A IA aceptará o meu traballo? - Análise gratuíta da carreira",
+    "meta_description": "Comproba se a intelixencia artificial é unha ameaza para a túa profesión. Obtén unha análise de riscos gratuíta e unha lista de habilidades seguras."
+  },
+  "Footer": {
+    "powered_by": "Apoiado por",
+    "community": "Únete á comunidade",
+    "statistics": "Estatísticas"
+  }
+}

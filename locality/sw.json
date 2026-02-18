@@ -1,0 +1,20 @@
+{
+  "Index": {
+    "title": "JE, NITACHUKUA KAZI YANGU?",
+    "placeholder": "Ingiza taaluma yako (km Mpangaji programu)",
+    "button": "Angalia siku zijazo",
+    "loading": "Inachanganua...",
+    "risk_label": "Hatari ya automatisering",
+    "skills_label": "Ujuzi Salama",
+    "tasks_label": "Kazi zilizo hatarini",
+    "verdict": "Uamuzi",
+    "reasoning": "Mantiki",
+    "meta_title": "Je, AI itachukua kazi yangu?- Uchambuzi wa bure wa kazi",
+    "meta_description": "Angalia kama akili bandia ni tishio kwa taaluma yako.Pata uchanganuzi wa hatari bila malipo na orodha ya ujuzi salama."
+  },
+  "Footer": {
+    "powered_by": "Imeungwa mkono na",
+    "community": "Jiunge na jumuiya",
+    "statistics": "Takwimu"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "Index": {
+    "title": "EM EMPLARA LA MEVA FEINA?",
+    "placeholder": "Introduïu la vostra professió (p. ex. programador)",
+    "button": "Comproveu el futur",
+    "loading": "S'està analitzant...",
+    "risk_label": "Risc d'automatització",
+    "skills_label": "Habilitats segures",
+    "tasks_label": "Tasques en risc",
+    "verdict": "Veredicte",
+    "reasoning": "Justificació",
+    "meta_title": "La IA em portarà la feina? - Anàlisi de carrera gratuïta",
+    "meta_description": "Comproveu si la intel·ligència artificial és una amenaça per a la vostra professió. Obteniu una anàlisi de riscos gratuïta i una llista d'habilitats segures.",
+    "share": "Anàlisi compartida",
+    "copied": "Copiat!",
+    "back_button": "Enrere",
+    "views": "Vistes",
+    "profession_not_found": "Professió no trobada",
+    "error_title": "Error",
+    "share_cta_low": "Segur de moment! Comparteix la bona notícia 🎉",
+    "share_cta_medium": "Futur incert... Aviseu els vostres companys ⚠️",
+    "share_cta_high": "Alt risc! Comparteix per conscienciar 🚨",
+    "share_generic": "Anàlisi compartida",
+    "share_message_low": "Estic segur! La meva professió ({profession}) només té un {risc}% de risc d'automatització d'IA. Comprova el teu: {url}",
+    "share_message_medium": "Temps incerts. La meva professió ({profession}) té un {risc}% de risc d'automatització d'IA. Comprova el teu: {url}",
+    "share_message_high": "😱 La IA podria ocupar-me la feina! {profession} té un {risk}% de risc d'automatització. Comproveu la vostra professió aquí: {url}",
+    "top_risk_today": "🔥 Màxim risc avui",
+    "top_safety": "🛡️ Màxima seguretat",
+    "view_all_risk": "Veure-ho tot",
+    "view_all_safe": "Veure-ho tot",
+    "all_professions": "Totes les Professions",
+    "sort_risk_desc": "El risc més alt primer",
+    "sort_risk_asc": "El risc més baix primer",
+    "load_more": "Carrega més",
+    "back_to_home": "Tornar a casa"
+  },
+  "Footer": {
+    "powered_by": "Amb el suport de",
+    "community": "Uneix-te a la comunitat",
+    "statistics": "Estadístiques"
+  },
+  "LanguageSwitcher": {
+    "select_language": "Seleccioneu Idioma",
+    "search_placeholder": "Cerca l'idioma..."
+  }
+}

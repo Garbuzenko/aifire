@@ -1,0 +1,20 @@
+{
+  "Index": {
+    "title": "E FA'AE AI LA'U GALUEGA?",
+    "placeholder": "Ulufale i lau galuega (eg Programmer)",
+    "button": "Siaki le lumanaʻi",
+    "loading": "Iloiloga...",
+    "risk_label": "Tulaga lamatia o masini",
+    "skills_label": "Tomai saogalemu",
+    "tasks_label": "Galuega e lamatia",
+    "verdict": "Fa'ai'uga",
+    "reasoning": "Mafuaaga",
+    "meta_title": "E ave ea e AI la'u galuega?- Au'ili'ili fua galuega",
+    "meta_description": "Siaki pe fa'amata'u le atamai fa'akomepiuta i lau galuega. Maua se su'esu'ega e leai se totogi ma se lisi o tomai saogalemu."
+  },
+  "Footer": {
+    "powered_by": "Lagolagoina e",
+    "community": "Auai i le nuu",
+    "statistics": "Fa'amaumauga"
+  }
+}

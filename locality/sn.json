@@ -1,0 +1,20 @@
+{
+  "Index": {
+    "title": "NDICHAtora BASA RANGU HERE?",
+    "placeholder": "Pinda basa rako (semuenzaniso Programmer)",
+    "button": "Tarisa ramangwana",
+    "loading": "Kuongorora...",
+    "risk_label": "Ngozi ye otomatiki",
+    "skills_label": "Safe Unyanzvi",
+    "tasks_label": "Mabasa ari panjodzi",
+    "verdict": "Mutongo",
+    "reasoning": "Rationale",
+    "meta_title": "Ko AI ichatora basa rangu here?- Yemahara yekuongorora basa",
+    "meta_description": "Tarisa uone kana hungwaru hwekugadzira huri kutyisidzira kuprofession yako.Tora yemahara njodzi yekuongorora uye yakachengeteka hunyanzvi runyorwa."
+  },
+  "Footer": {
+    "powered_by": "Inotsigirwa na",
+    "community": "Join nharaunda",
+    "statistics": "Statistics"
+  }
+}

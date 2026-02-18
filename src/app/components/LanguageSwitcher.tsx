@@ -44,7 +44,11 @@ export default function LanguageSwitcher() {
     closeModal();
   };
 
-  if (languages.length === 0) return null;
+  if (languages.length === 0) {
+    return (
+      <div className="w-[64px] h-[42px] rounded-full bg-gray-800/50 backdrop-blur-md border border-gray-700 animate-pulse" />
+    );
+  }
 
   return (
     <>

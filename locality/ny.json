@@ -1,0 +1,20 @@
+{
+  "Index": {
+    "title": "KODI NDIDZAIGWIRA NTCHITO LANGA?",
+    "placeholder": "Lowetsani ntchito yanu (monga Wopanga Mapulogalamu)",
+    "button": "Onani zam'tsogolo",
+    "loading": "Kusanthula...",
+    "risk_label": "Kuopsa kwa automation",
+    "skills_label": "Maluso Otetezeka",
+    "tasks_label": "Ntchito zomwe zili pachiwopsezo",
+    "verdict": "Chigamulo",
+    "reasoning": "Zomveka",
+    "meta_title": "Kodi AI idzatenga ntchito yanga? - Kusanthula kwaulere kwa ntchito",
+    "meta_description": "Onani ngati luntha lochita kupanga likuwopseza profession.Pezani kusanthula kwaufulu kwaufulu ndi mndandanda wamaluso otetezeka."
+  },
+  "Footer": {
+    "powered_by": "Mothandizidwa ndi",
+    "community": "Lowani nawo gulu",
+    "statistics": "Ziwerengero"
+  }
+}

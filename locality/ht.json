@@ -1,0 +1,20 @@
+{
+  "Index": {
+    "title": "ÈSKE MAP PRAN TRAVAY MWEN?",
+    "placeholder": "Antre pwofesyon ou (egzanp pwogramè)",
+    "button": "Tcheke tan kap vini an",
+    "loading": "Analize...",
+    "risk_label": "Risk pou automatisation",
+    "skills_label": "Konpetans ki an sekirite",
+    "tasks_label": "Travay nan risk",
+    "verdict": "Vèdik",
+    "reasoning": "Rezon ki fè",
+    "meta_title": "Èske AI pran travay mwen?- Analiz karyè gratis",
+    "meta_description": "Tcheke si entèlijans atifisyèl se yon menas pou pwofesyon ou. Jwenn yon analiz risk gratis ak lis konpetans san danje."
+  },
+  "Footer": {
+    "powered_by": "Sipòte pa",
+    "community": "Antre nan kominote a",
+    "statistics": "Estatistik"
+  }
+}

@@ -53,29 +53,7 @@ export default function Home() {
   };
 
   return (
-    <main className="flex min-h-screen flex-col items-center justify-start md:justify-center p-4 pt-24 pb-12 md:p-8 bg-black text-white relative overflow-y-auto">
-      {/* Language Switcher */}
-      <div className="fixed top-4 left-4 z-50">
-        <LanguageSwitcher />
-      </div>
-
-      {/* AI Founders Logo */}
-      <a 
-        href="https://ai-fire.ru/ru" 
-        target="_blank" 
-        rel="noopener noreferrer" 
-        className="fixed top-4 right-4 z-50 hover:opacity-80 transition-opacity"
-      >
-        <Image 
-          alt="AI Founders" 
-          width={28} 
-          height={28} 
-          className="h-7 md:h-8 w-auto" 
-          src="https://storage.yandexcloud.net/stickers/stickers-AgAD_g0AAoGJqEg.gif" 
-          unoptimized
-        />
-      </a>
-
+    <main className="flex min-h-screen flex-col items-center justify-start md:justify-center p-4 pb-12 md:p-8 bg-black text-white relative overflow-y-auto">
 
       <div className="z-10 w-full max-w-2xl flex flex-col items-center">
         <h1 className="text-3xl sm:text-5xl md:text-7xl font-black mb-6 md:mb-8 text-center bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 text-transparent bg-clip-text animate-pulse mt-4 md:mt-0">

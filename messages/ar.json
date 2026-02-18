@@ -9,30 +9,30 @@
     "tasks_label": "المهام في خطر",
     "verdict": "الحكم",
     "reasoning": "الأساس المنطقي",
-    "meta_title": "هل سيأخذ الذكاء الاصطناعي وظيفتي؟- تحليل وظيفي مجاني",
-    "meta_description": "تحقق مما إذا كان الذكاء الاصطناعي يشكل تهديدًا لمهنتك.احصل على تحليل مجاني للمخاطر وقائمة المهارات الآمنة.",
-    "share": "Share Analysis",
-    "copied": "Copied!",
-    "back_button": "Back",
-    "views": "Views",
-    "profession_not_found": "Profession Not Found",
-    "error_title": "Error",
-    "share_cta_low": "Safe for now! Share the good news 🎉",
-    "share_cta_medium": "Uncertain future... Warn your colleagues ⚠️",
-    "share_cta_high": "High risk! Share to spread awareness 🚨",
-    "share_generic": "Share Analysis",
-    "share_message_low": "I'm safe! My profession ({profession}) has only {risk}% risk of AI automation. Check yours: {url}",
-    "share_message_medium": "Uncertain times. My profession ({profession}) has {risk}% risk of AI automation. Check yours: {url}",
-    "share_message_high": "😱 AI might take my job! {profession} has {risk}% risk of automation. Check your profession here: {url}",
-    "top_risk_today": "🔥 Top Risk Today",
-    "top_safety": "🛡️ Top Safety",
-    "view_all_risk": "View All",
-    "view_all_safe": "View All",
-    "all_professions": "All Professions",
-    "sort_risk_desc": "Highest Risk First",
-    "sort_risk_asc": "Lowest Risk First",
-    "load_more": "Load More",
-    "back_to_home": "Back to Home"
+    "meta_title": "هل سيأخذ الذكاء الاصطناعي وظيفتي؟ - تحليل وظيفي مجاني",
+    "meta_description": "تحقق مما إذا كان الذكاء الاصطناعي يشكل تهديدًا لمهنتك. احصل على تحليل مجاني للمخاطر وقائمة المهارات الآمنة.",
+    "share": "تحليل المشاركة",
+    "copied": "منسوخ!",
+    "back_button": "خلف",
+    "views": "وجهات النظر",
+    "profession_not_found": "لم يتم العثور على المهنة",
+    "error_title": "خطأ",
+    "share_cta_low": "آمن الآن! شارك بالخبر السار 🎉",
+    "share_cta_medium": "مستقبل غامض... حذر زملائك ⚠️",
+    "share_cta_high": "مخاطر عالية! شارك لنشر الوعي 🚨",
+    "share_generic": "تحليل المشاركة",
+    "share_message_low": "أنا آمن! مهنتي ({المهنة}) لا تنطوي إلا على نسبة {risk}% من مخاطر أتمتة الذكاء الاصطناعي. تحقق مما لديك: {url}",
+    "share_message_medium": "أوقات غير مؤكدة. مهنتي ({المهنة}) بها خطر بنسبة {risk}% من أتمتة الذكاء الاصطناعي. تحقق مما لديك: {url}",
+    "share_message_high": "😱 الذكاء الاصطناعي قد يأخذ وظيفتي! {المهنة} لديها خطر التشغيل الآلي بنسبة {risk}%. تحقق من مهنتك هنا: {url}",
+    "top_risk_today": "🔥 أعلى المخاطر اليوم",
+    "top_safety": "🛡️ أعلى درجات الأمان",
+    "view_all_risk": "عرض الكل",
+    "view_all_safe": "عرض الكل",
+    "all_professions": "جميع المهن",
+    "sort_risk_desc": "أعلى المخاطر أولا",
+    "sort_risk_asc": "أدنى المخاطر أولا",
+    "load_more": "تحميل المزيد",
+    "back_to_home": "العودة إلى المنزل"
   },
   "Footer": {
     "powered_by": "بدعم من",
@@ -41,6 +41,6 @@
   },
   "LanguageSwitcher": {
     "select_language": "اختر اللغة",
-    "search_placeholder": "البحث عن لغة..."
+    "search_placeholder": "لغة البحث..."
   }
 }

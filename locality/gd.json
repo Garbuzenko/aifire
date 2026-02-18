@@ -1,0 +1,20 @@
+{
+  "Index": {
+    "title": "AN gabh AI m’ obair?",
+    "placeholder": "Cuir a-steach do dhreuchd (me Prògramadair)",
+    "button": "Thoir sùil air an àm ri teachd",
+    "loading": "A' mion-sgrùdadh...",
+    "risk_label": "Cunnart fèin-ghluasad",
+    "skills_label": "Sgilean Sàbhailte",
+    "tasks_label": "Gnìomhan ann an cunnart",
+    "verdict": "Breith",
+    "reasoning": "Feallsanachd",
+    "meta_title": "An gabh AI an obair agam? - Mion-sgrùdadh dreuchd an-asgaidh",
+    "meta_description": "Dèan cinnteach a bheil inntleachd fuadain na chunnart don dreuchd agad. Faigh liosta mion-sgrùdadh cunnairt agus sgilean sàbhailte an-asgaidh."
+  },
+  "Footer": {
+    "powered_by": "Le taic bho",
+    "community": "Thig còmhla ris a’ choimhearsnachd",
+    "statistics": "Staitistig"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "Index": {
+    "title": "AI CHU KA HNA HI A LA LO ANG EM?",
+    "placeholder": "I hnathawhnaah lut rawh (eg Programmer) .",
+    "button": "Nakin hun chu enfiah rawh",
+    "loading": "Analyzing a ni...",
+    "risk_label": "Automation a awm theihna tur risk",
+    "skills_label": "Thiamna him tak neih",
+    "tasks_label": "Hnathawh te chu risk-ah a awm",
+    "verdict": "Thutlukna siam a ni",
+    "reasoning": "Chhanna (rationale) a ni",
+    "meta_title": "AI hian ka hna hi a la dawn em ni?- Free career analysis",
+    "meta_description": "Artificial intelligence hi i hnathawhna atana hlauhawm a nih leh nih loh enfiah rawh.A thlawna risk analysis leh safe skills list la rawh."
+  },
+  "Footer": {
+    "powered_by": "A thlawptu chu",
+    "community": "Khawtlang nunah tel ve rawh",
+    "statistics": "Statistics a ni"
+  }
+}

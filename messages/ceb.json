@@ -1,0 +1,46 @@
+{
+  "Index": {
+    "title": "KUHAON BA AKONG TRABAHO?",
+    "placeholder": "Pagsulod sa imong propesyon (eg Programmer)",
+    "button": "Susiha ang umaabot",
+    "loading": "Pagtuki...",
+    "risk_label": "Risgo sa automation",
+    "skills_label": "Luwas nga Kahanas",
+    "tasks_label": "Mga buluhaton sa peligro",
+    "verdict": "Paghukom",
+    "reasoning": "Pangatarungan",
+    "meta_title": "Makuha ba sa AI ang akong trabaho?- Libre nga pagtuki sa karera",
+    "meta_description": "Susiha kung ang artificial intelligence usa ka hulga sa imong propesyon. Pagkuha ug libre nga pagtuki sa risgo ug listahan sa luwas nga kahanas.",
+    "share": "Pag-analisar sa Ipakigbahin",
+    "copied": "Gikopya!",
+    "back_button": "Balik",
+    "views": "Mga panan-aw",
+    "profession_not_found": "Propesyon Wala Makita",
+    "error_title": "Sayop",
+    "share_cta_low": "Luwas sa pagkakaron! Ipaambit ang maayong balita 🎉",
+    "share_cta_medium": "Walay kasiguroan nga kaugmaon... Pahimangno sa imong mga kauban ⚠️",
+    "share_cta_high": "Taas nga risgo! I-share para mapalapad ang awareness 🚨",
+    "share_generic": "Pag-analisar sa Ipakigbahin",
+    "share_message_low": "Luwas ko! Ang akong propesyon ({profession}) adunay {risk}% lang nga risgo sa AI automation. Susiha ang imoha: {url}",
+    "share_message_medium": "Dili sigurado nga mga panahon. Ang akong propesyon ({profession}) adunay {risk}% nga risgo sa AI automation. Susiha ang imoha: {url}",
+    "share_message_high": "😱 Mahimong kuhaon sa AI ang akong trabaho! Ang {profession} adunay {risk}% nga risgo sa automation. Susiha ang imong propesyon dinhi: {url}",
+    "top_risk_today": "🔥 Pinakataas nga Risgo Karon",
+    "top_safety": "🛡️ Kinatas-ang Kaluwasan",
+    "view_all_risk": "Tan-awa Tanan",
+    "view_all_safe": "Tan-awa Tanan",
+    "all_professions": "Tanan nga Propesyon",
+    "sort_risk_desc": "Labing Taas nga Risgo Una",
+    "sort_risk_asc": "Labing Ubos nga Risgo Una",
+    "load_more": "Pag-load sa Dugang",
+    "back_to_home": "Balik sa Panimalay"
+  },
+  "Footer": {
+    "powered_by": "Gisuportahan sa",
+    "community": "Apil sa komunidad",
+    "statistics": "Estadistika"
+  },
+  "LanguageSwitcher": {
+    "select_language": "Pilia ang Pinulongan",
+    "search_placeholder": "Pangitag pinulongan..."
+  }
+}

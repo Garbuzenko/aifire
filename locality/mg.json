@@ -1,0 +1,20 @@
+{
+  "Index": {
+    "title": "HANAIKY NY ASAKO ve i AI?",
+    "placeholder": "Ampidiro ny asanao (oh: Programmer)",
+    "button": "Jereo ny ho avy",
+    "loading": "Famakafakana...",
+    "risk_label": "Ny risika amin'ny automatique",
+    "skills_label": "Safe Skills",
+    "tasks_label": "Asa atahorana",
+    "verdict": "didim-pitsarana",
+    "reasoning": "antony",
+    "meta_title": "Handray ny asako ve ny AI?- Famakafakana momba ny asa maimaim-poana",
+    "meta_description": "Jereo raha loza mitatao amin'ny asanao ny faharanitan-tsaina artifisialy. Makà famakafakana risika maimaim-poana sy lisitry ny fahaiza-manao azo antoka."
+  },
+  "Footer": {
+    "powered_by": "Tohanan'ny",
+    "community": "Midira amin'ny fiarahamonina",
+    "statistics": "antontan'isa"
+  }
+}

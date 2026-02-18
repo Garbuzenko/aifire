@@ -1,7 +1,7 @@
 {
   "Index": {
     "title": "VÁLLALOM AZ ÁLLÁSomat?",
-    "placeholder": "Adja meg szakmáját (pl. programozó)",
+    "placeholder": "Írja be a szakmáját (pl. programozó)",
     "button": "Ellenőrizze a jövőt",
     "loading": "Elemzés...",
     "risk_label": "Az automatizálás veszélye",
@@ -9,11 +9,12 @@
     "tasks_label": "Veszélyben lévő feladatok",
     "verdict": "Ítélet",
     "reasoning": "Indoklás",
-    "meta_title": "Elveszi az AI a munkámat?- Ingyenes karrierelemzés",
-    "meta_description": "Ellenőrizze, hogy a mesterséges intelligencia veszélyt jelent-e a szakmájára.Szerezzen ingyenes kockázatelemzést és biztonságos készségek listáját."
+    "meta_title": "Elveszi a mesterséges intelligencia a munkámat? - Ingyenes karrierelemzés",
+    "meta_description": "Ellenőrizze, hogy a mesterséges intelligencia veszélyt jelent-e szakmájára. Ingyenes kockázatelemzés és biztonságos készségek listája."
   },
   "Footer": {
     "powered_by": "által támogatott",
-    "community": "Csatlakozz a közösséghez"
+    "community": "Csatlakozz a közösséghez",
+    "statistics": "Statisztika"
   }
 }

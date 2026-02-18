@@ -1,0 +1,20 @@
+{
+  "Index": {
+    "title": "MUN ÉG TAKA STARFIÐ MÍN?",
+    "placeholder": "Sláðu inn fagið þitt (td forritari)",
+    "button": "Athugaðu framtíðina",
+    "loading": "Er að greina...",
+    "risk_label": "Hætta á sjálfvirkni",
+    "skills_label": "Örugg kunnátta",
+    "tasks_label": "Verkefni í hættu",
+    "verdict": "Dómur",
+    "reasoning": "Rökstuðningur",
+    "meta_title": "Mun gervigreind taka starfið mitt? - Ókeypis starfsgreining",
+    "meta_description": "Athugaðu hvort gervigreind sé ógn við fagið þitt. Fáðu ókeypis áhættugreiningu og öruggan hæfileikalista."
+  },
+  "Footer": {
+    "powered_by": "Stuðningur af",
+    "community": "Skráðu þig í samfélagið",
+    "statistics": "Tölfræði"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "Index": {
+    "title": "M ga-ewere ọrụ m?",
+    "placeholder": "Tinye ọrụ gị (dịka Programmer)",
+    "button": "Lelee ọdịnihu",
+    "loading": "Na-enyocha...",
+    "risk_label": "Ihe ize ndụ nke akpaaka",
+    "skills_label": "Nka nchekwa",
+    "tasks_label": "Ihe aga-eme n'ihe egwu",
+    "verdict": "Mkpebi",
+    "reasoning": "Ihe kpatara ya",
+    "meta_title": "AI ga-ewere ọrụ m? - Nyocha ọrụ efu",
+    "meta_description": "Lelee ma ọgụgụ isi bụ ihe iyi egwu nye ọrụ gị. Nweta nyocha ihe egwu n'efu na ndepụta nka nchekwa."
+  },
+  "Footer": {
+    "powered_by": "Na-akwado ya",
+    "community": "Soro obodo",
+    "statistics": "Ọnụọgụ"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "Index": {
+    "title": "E LAWE ANEI AI I KA'U HANA?",
+    "placeholder": "E komo i kāu ʻoihana (eg Programmer)",
+    "button": "E nānā i ka wā e hiki mai ana",
+    "loading": "Ke kālailai ʻana...",
+    "risk_label": "Pilikia o ka automation",
+    "skills_label": "Nā mākau palekana",
+    "tasks_label": "Hana pilikia",
+    "verdict": "Olelo Hooholo",
+    "reasoning": "Kumukumu",
+    "meta_title": "E lawe anei ʻo AI i kaʻu hana?",
+    "meta_description": "E nānā inā he mea hoʻoweliweli ka naʻauao hana i kāu ʻoihana."
+  },
+  "Footer": {
+    "powered_by": "Kākoʻo ʻia e",
+    "community": "E hui pū me ke kaiāulu",
+    "statistics": "Heluhelu"
+  }
+}

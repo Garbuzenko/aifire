@@ -10,10 +10,11 @@
     "verdict": "Kjennelse",
     "reasoning": "Begrunnelse",
     "meta_title": "Vil AI ta jobben min?- Gratis karriereanalyse",
-    "meta_description": "Sjekk om kunstig intelligens er en trussel mot yrket ditt.Få en gratis risikoanalyse og sikker ferdighetsliste."
+    "meta_description": "Sjekk om kunstig intelligens er en trussel mot yrket ditt. Få en gratis risikoanalyse og sikker ferdighetsliste."
   },
   "Footer": {
     "powered_by": "Støttes av",
-    "community": "Bli med i fellesskapet"
+    "community": "Bli med i fellesskapet",
+    "statistics": "Statistikk"
   }
 }

@@ -3,6 +3,7 @@ import "../globals.css";
 import { NextIntlClientProvider } from 'next-intl';
 import { getMessages, getTranslations } from 'next-intl/server';
 import Footer from "../components/Footer";
+import Header from "../components/Header";
 import YandexMetrika from "../components/YandexMetrika";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -36,7 +37,8 @@ export default async function LocaleLayout({
       <body className={`${inter.className} min-h-screen flex flex-col`}>
         <YandexMetrika />
         <NextIntlClientProvider messages={messages}>
-          <div className="flex-grow">
+          <Header />
+          <div className="flex-grow pt-16">
             {children}
           </div>
           <Footer />

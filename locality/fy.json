@@ -1,0 +1,20 @@
+{
+  "Index": {
+    "title": "Sil ik myn baan nimme?",
+    "placeholder": "Fier jo berop yn (bygelyks programmeur)",
+    "button": "Kontrolearje de takomst",
+    "loading": "Analysearje...",
+    "risk_label": "Risiko fan automatisearring",
+    "skills_label": "Feilige feardigens",
+    "tasks_label": "Taken yn gefaar",
+    "verdict": "Verdict",
+    "reasoning": "Rationale",
+    "meta_title": "Sil AI myn baan nimme? - Fergese karriêreanalyse",
+    "meta_description": "Kontrolearje oft keunstmjittige yntelliginsje in bedriging is foar jo berop.Krij in fergese risiko-analyse en feilige feardigenslist."
+  },
+  "Footer": {
+    "powered_by": "Stipe troch",
+    "community": "Doch mei oan de mienskip",
+    "statistics": "Statistyk"
+  }
+}

@@ -9,11 +9,12 @@
     "tasks_label": "Ülesanded ohus",
     "verdict": "Kohtuotsus",
     "reasoning": "Põhjendus",
-    "meta_title": "Kas AI võtab mu töö?- Tasuta karjäärianalüüs",
-    "meta_description": "Kontrollige, kas tehisintellekt ohustab teie elukutset.Hankige tasuta riskianalüüs ja ohutute oskuste nimekiri."
+    "meta_title": "Kas tehisintellekt võtab mu töö? - tasuta karjäärianalüüs",
+    "meta_description": "Kontrollige, kas tehisintellekt ohustab teie elukutset. Hankige tasuta riskianalüüs ja ohutute oskuste loend."
   },
   "Footer": {
     "powered_by": "Toetavad",
-    "community": "Liituge kogukonnaga"
+    "community": "Liituge kogukonnaga",
+    "statistics": "Statistika"
   }
 }

@@ -9,11 +9,12 @@
     "tasks_label": "Zadaci u opasnosti",
     "verdict": "Presuda",
     "reasoning": "Obrazloženje",
-    "meta_title": "Hoće li umjetna inteligencija preuzeti moj posao?- Besplatna analiza karijere",
-    "meta_description": "Provjerite je li umjetna inteligencija prijetnja vašoj profesiji.Dobijte besplatnu analizu rizika i popis sigurnih vještina."
+    "meta_title": "Hoće li AI preuzeti moj posao? - Besplatna analiza karijere",
+    "meta_description": "Provjerite je li umjetna inteligencija prijetnja vašoj profesiji. Preuzmite besplatnu analizu rizika i popis sigurnih vještina."
   },
   "Footer": {
     "powered_by": "Podržano od",
-    "community": "Pridružite se zajednici"
+    "community": "Pridružite se zajednici",
+    "statistics": "Statistika"
   }
 }

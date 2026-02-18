@@ -9,11 +9,12 @@
     "tasks_label": "Rizikos užduotys",
     "verdict": "Verdiktas",
     "reasoning": "Loginis pagrindas",
-    "meta_title": "Ar AI imsis mano darbo?- Nemokama karjeros analizė",
-    "meta_description": "Patikrinkite, ar dirbtinis intelektas nekelia grėsmės jūsų profesijai.Gaukite nemokamą rizikos analizę ir saugių įgūdžių sąrašą."
+    "meta_title": "Ar AI imsis mano darbo? – Nemokama karjeros analizė",
+    "meta_description": "Patikrinkite, ar dirbtinis intelektas nekelia grėsmės jūsų profesijai. Gaukite nemokamą rizikos analizę ir saugių įgūdžių sąrašą."
   },
   "Footer": {
     "powered_by": "Palaikoma",
-    "community": "Prisijunkite prie bendruomenės"
+    "community": "Prisijunkite prie bendruomenės",
+    "statistics": "Statistika"
   }
 }

@@ -1,0 +1,20 @@
+{
+  "Index": {
+    "title": "DÊ AI KARÊ MIN BIGIRE?",
+    "placeholder": "Pîşeya xwe binivîse (mînak Bernamesaz)",
+    "button": "Pêşerojê kontrol bikin",
+    "loading": "Analîzkirin...",
+    "risk_label": "Rîska automation",
+    "skills_label": "Safe Skills",
+    "tasks_label": "Karên di xetereyê de",
+    "verdict": "Hûkûm",
+    "reasoning": "Rationale",
+    "meta_title": "Ma AI dê karê min bigire? - Analîza kariyerê belaş",
+    "meta_description": "Kontrol bikin ka îstîxbarata sûnî ji bo pîşeya we xeternak e. Analîzek xeternak û navnîşek jêhatîbûnên ewledar bistînin."
+  },
+  "Footer": {
+    "powered_by": "Piştgiriya",
+    "community": "Tevlî civatê bibin",
+    "statistics": "Jimare"
+  }
+}

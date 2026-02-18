@@ -1,0 +1,20 @@
+{
+  "Index": {
+    "title": "AI IZAKORA AKAZI KANJYE?",
+    "placeholder": "Injira umwuga wawe (urugero: Porogaramu)",
+    "button": "Reba ahazaza",
+    "loading": "Gusesengura ...",
+    "risk_label": "Ingaruka zo kwikora",
+    "skills_label": "Ubuhanga butekanye",
+    "tasks_label": "Inshingano ziri mu kaga",
+    "verdict": "Urubanza",
+    "reasoning": "Impamvu",
+    "meta_title": "AI izafata akazi kanjye? - Isesengura ryumwuga",
+    "meta_description": "Reba niba ubwenge bwubukorikori bubangamiye umwuga wawe. Shakisha isesengura ryubusa hamwe nurutonde rwubuhanga butekanye."
+  },
+  "Footer": {
+    "powered_by": "Bishyigikiwe na",
+    "community": "Injira mumuryango",
+    "statistics": "Imibare"
+  }
+}

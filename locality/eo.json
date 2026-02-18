@@ -1,0 +1,20 @@
+{
+  "Index": {
+    "title": "ĈU AI PRENOS MIAN POSTON?",
+    "placeholder": "Enigu vian profesion (ekz. Programisto)",
+    "button": "Kontrolu la estontecon",
+    "loading": "Analizante...",
+    "risk_label": "Risko de aŭtomatigo",
+    "skills_label": "Sekuraj Kapabloj",
+    "tasks_label": "Taskoj en risko",
+    "verdict": "Verdikto",
+    "reasoning": "Racio",
+    "meta_title": "Ĉu AI prenos mian laboron?- Senpaga karieranalizo",
+    "meta_description": "Kontrolu ĉu artefarita inteligenteco estas minaco por via profesio. Akiru senpagan riskan analizon kaj liston de sekuraj kapabloj."
+  },
+  "Footer": {
+    "powered_by": "Subtenita de",
+    "community": "Aliĝu al la komunumo",
+    "statistics": "Statistiko"
+  }
+}

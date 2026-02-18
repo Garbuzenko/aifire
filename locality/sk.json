@@ -9,11 +9,12 @@
     "tasks_label": "Úlohy v ohrození",
     "verdict": "Verdikt",
     "reasoning": "Odôvodnenie",
-    "meta_title": "Zoberie mi AI prácu?- bezplatná analýza kariéry",
-    "meta_description": "Skontrolujte, či umelá inteligencia nie je hrozbou pre vašu profesiu.Získajte bezplatnú analýzu rizík a zoznam bezpečných zručností."
+    "meta_title": "Zoberie AI moju prácu?- Bezplatná kariérna analýza",
+    "meta_description": "Skontrolujte, či umelá inteligencia nie je hrozbou pre vašu profesiu. Získajte bezplatnú analýzu rizík a zoznam bezpečných zručností."
   },
   "Footer": {
     "powered_by": "S podporou",
-    "community": "Pripojte sa ku komunite"
+    "community": "Pripojte sa ku komunite",
+    "statistics": "Štatistiky"
   }
 }

@@ -10,10 +10,11 @@
     "verdict": "Dom",
     "reasoning": "Begrundelse",
     "meta_title": "Vil AI tage mit job?- Gratis karriereanalyse",
-    "meta_description": "Tjek, om kunstig intelligens er en trussel mod dit erhverv.Få en gratis risikoanalyse og sikker færdighedsliste."
+    "meta_description": "Tjek, om kunstig intelligens er en trussel mod dit erhverv. Få en gratis risikoanalyse og sikker færdighedsliste."
   },
   "Footer": {
     "powered_by": "Støttet af",
-    "community": "Deltag i fællesskabet"
+    "community": "Deltag i fællesskabet",
+    "statistics": "Statistik"
   }
 }

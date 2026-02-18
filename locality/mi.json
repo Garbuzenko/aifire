@@ -1,0 +1,20 @@
+{
+  "Index": {
+    "title": "KA WHAI AI I TAKU MAHARA?",
+    "placeholder": "Whakauruhia to umanga (hei tauira, Kaitakataka)",
+    "button": "Tirohia te heke mai",
+    "loading": "Te tātari...",
+    "risk_label": "Morearea o te aunoatanga",
+    "skills_label": "Nga Pukenga Haumaru",
+    "tasks_label": "Nga mahi morearea",
+    "verdict": "Whakatau",
+    "reasoning": "Taketake",
+    "meta_title": "Ka tangohia e AI taku mahi?- Kore utu tātari mahi",
+    "meta_description": "Tirohia mena he whakatumatuma te matauranga hangai ki to umanga. Tikina he tātari morearea kore utu me te rarangi pukenga haumaru."
+  },
+  "Footer": {
+    "powered_by": "Tautokona e",
+    "community": "Hono atu ki te hapori",
+    "statistics": "Tauanga"
+  }
+}

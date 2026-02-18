@@ -9,11 +9,12 @@
     "tasks_label": "Taken die gevaar lopen",
     "verdict": "Uitspraak",
     "reasoning": "Grondgedachte",
-    "meta_title": "Zal AI mijn baan overnemen?- Gratis loopbaananalyse",
-    "meta_description": "Controleer of kunstmatige intelligentie een bedreiging is voor uw beroep.Ontvang een gratis risicoanalyse en een lijst met veilige vaardigheden."
+    "meta_title": "Zal AI mijn baan overnemen? - Gratis loopbaananalyse",
+    "meta_description": "Controleer of kunstmatige intelligentie een bedreiging is voor uw beroep. Ontvang een gratis risicoanalyse en lijst met veilige vaardigheden."
   },
   "Footer": {
     "powered_by": "Ondersteund door",
-    "community": "Sluit je aan bij de gemeenschap"
+    "community": "Sluit je aan bij de gemeenschap",
+    "statistics": "Statistieken"
   }
 }

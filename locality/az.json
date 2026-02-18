@@ -10,11 +10,37 @@
     "verdict": "Hökm",
     "reasoning": "Əsaslandırma",
     "meta_title": "AI işimi götürəcəkmi? - Pulsuz karyera təhlili",
-    "meta_description": "Süni intellektin peşəniz üçün təhlükə olub-olmadığını yoxlayın. Pulsuz risk təhlili və təhlükəsiz bacarıqlar siyahısı əldə edin."
+    "meta_description": "Süni intellektin peşəniz üçün təhlükə olub-olmadığını yoxlayın. Pulsuz risk təhlili və təhlükəsiz bacarıqlar siyahısı əldə edin.",
+    "share": "Analizi paylaşın",
+    "copied": "Kopyalandı!",
+    "back_button": "Geri",
+    "views": "Baxışlar",
+    "profession_not_found": "Peşə tapılmadı",
+    "error_title": "Xəta",
+    "share_cta_low": "Hələlik təhlükəsiz! Xoş xəbəri paylaşın 🎉",
+    "share_cta_medium": "Qeyri-müəyyən gələcək... Həmkarlarınızı xəbərdar edin ⚠️",
+    "share_cta_high": "Yüksək risk! Maarifləndirmək üçün paylaşın 🚨",
+    "share_generic": "Analizi paylaşın",
+    "share_message_low": "Mən təhlükəsizəm! Mənim peşəmdə ({peşə}) AI avtomatlaşdırılması üçün yalnız {risk}% risk var. Özünüzü yoxlayın: {url}",
+    "share_message_medium": "Qeyri-müəyyən vaxtlar. Mənim peşəmdə ({peşə}) AI avtomatlaşdırılması {risk}% riski var. Özünüzü yoxlayın: {url}",
+    "share_message_high": "😱 Süni intellekt işimi ala bilər! {profession} {risk}% avtomatlaşdırma riskinə malikdir. Peşənizi burada yoxlayın: {url}",
+    "top_risk_today": "🔥 Bu gün ən yüksək risk",
+    "top_safety": "🛡️ Yüksək Təhlükəsizlik",
+    "view_all_risk": "Hamısına Baxın",
+    "view_all_safe": "Hamısına Baxın",
+    "all_professions": "Bütün Peşələr",
+    "sort_risk_desc": "Ən yüksək risk ilk",
+    "sort_risk_asc": "Əvvəlcə Ən Aşağı Risk",
+    "load_more": "Daha çox yüklə",
+    "back_to_home": "Evə qayıt"
   },
   "Footer": {
     "powered_by": "tərəfindən dəstəklənir",
     "community": "İcmaya qoşulun",
     "statistics": "Statistika"
+  },
+  "LanguageSwitcher": {
+    "select_language": "Dil seçin",
+    "search_placeholder": "Dil axtar..."
   }
 }

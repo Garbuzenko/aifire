@@ -4,6 +4,25 @@ import { RowDataPacket } from 'mysql2';
 import { getTranslations } from 'next-intl/server';
 import ShareButton from '@/app/components/ShareButton';
 import Link from 'next/link';
+import fs from 'fs';
+import path from 'path';
+
+export const dynamic = 'force-dynamic';
+export const revalidate = 0;
+
+function logDebug(message: string) {
+  const logDir = path.join(process.cwd(), 'temp', 'errors');
+  const logPath = path.join(logDir, 'page_debug.log');
+  const timestamp = new Date().toISOString();
+  try {
+    if (!fs.existsSync(logDir)) {
+      fs.mkdirSync(logDir, { recursive: true });
+    }
+    fs.appendFileSync(logPath, `[${timestamp}] ${message}\n`);
+  } catch (e) {
+    // console.error('Failed to write to debug log:', e);
+  }
+}
 
 interface AnalysisResult {
   risk_score: number;
@@ -26,14 +45,17 @@ interface ProfessionData extends RowDataPacket {
 
 export async function generateMetadata({ params }: { params: Promise<{ id: string; locale: string }> }) {
   const { id, locale } = await params;
+  logDebug(`generateMetadata called for id=${id}, locale=${locale}`);
   
   try {
     const [rows] = await pool.execute<ProfessionData[]>(
-      'SELECT profession, is_censored FROM profession_analysis WHERE id = ? AND is_censored = 0',
+      'SELECT profession, is_censored FROM profession_analysis WHERE id = ?',
       [id]
     );
+    logDebug(`generateMetadata query result: ${rows.length} rows`);
 
       if (rows.length === 0 || rows[0].is_censored) {
+      logDebug(`generateMetadata: not found or censored`);
       const t = await getTranslations({ locale, namespace: 'Index' });
       return {
         title: t('profession_not_found'),
@@ -48,6 +70,7 @@ export async function generateMetadata({ params }: { params: Promise<{ id: strin
       description: `${t('meta_description')} - ${profession}`,
     };
   } catch (error) {
+    logDebug(`generateMetadata error: ${error}`);
     console.error('Metadata error:', error);
     const t = await getTranslations({ locale, namespace: 'Index' });
     return {
@@ -58,43 +81,88 @@ export async function generateMetadata({ params }: { params: Promise<{ id: strin
 
 export default async function ProfessionPage({ params }: { params: Promise<{ id: string; locale: string }> }) {
   const { id, locale } = await params;
+  logDebug(`ProfessionPage called for id=${id}, locale=${locale}`);
   const t = await getTranslations({ locale, namespace: 'Index' });
+
+  // Validate ID
+  if (!id || isNaN(Number(id))) {
+    logDebug(`ProfessionPage: Invalid ID ${id}`);
+    return (
+        <main className="flex min-h-screen flex-col items-center justify-center p-4 bg-black text-white">
+          <h1 className="text-2xl font-bold text-red-500">Invalid Profession ID</h1>
+          <Link href={`/${locale}`} className="mt-4 text-blue-400 hover:underline">
+            {t('back_button')}
+          </Link>
+        </main>
+    );
+  }
 
   let analysis: ProfessionData | null = null;
 
   try {
     // Increment request count first
-    await pool.execute(
-      'UPDATE profession_analysis SET request_count = request_count + 1 WHERE id = ?',
-      [id]
-    );
+    try {
+        await pool.execute(
+        'UPDATE profession_analysis SET request_count = request_count + 1 WHERE id = ?',
+        [id]
+        );
+    } catch (e) {
+        logDebug(`Failed to update request count: ${e}`);
+    }
 
     // Fetch analysis
     const [rows] = await pool.execute<ProfessionData[]>(
-      'SELECT * FROM profession_analysis WHERE id = ? AND is_censored = 0',
+      'SELECT * FROM profession_analysis WHERE id = ?',
       [id]
     );
+    logDebug(`ProfessionPage query result: ${rows.length} rows`);
 
-    if (rows.length > 0 && !rows[0].is_censored) {
-      analysis = rows[0];
-      
-      // Ensure analysis_json is an object
-      if (typeof analysis.analysis_json === 'string') {
-        try {
-          analysis.analysis_json = JSON.parse(analysis.analysis_json);
-        } catch (e) {
-          console.error('Failed to parse analysis_json:', e);
-          analysis = null;
-        }
+    if (rows.length > 0) {
+      // Check censorship
+      if (rows[0].is_censored) {
+         logDebug(`ProfessionPage: censored`);
+         analysis = null; // Treat as not found for the page content
+      } else {
+          analysis = rows[0];
+          
+          // Ensure analysis_json is an object
+          if (typeof analysis.analysis_json === 'string') {
+            try {
+              analysis.analysis_json = JSON.parse(analysis.analysis_json);
+            } catch (e) {
+              logDebug(`ProfessionPage JSON parse error: ${e}`);
+              console.error('Failed to parse analysis_json:', e);
+              analysis = null;
+            }
+          }
       }
     }
   } catch (error) {
+    logDebug(`ProfessionPage error: ${error}`);
     console.error('Database error:', error);
-    // Handle error appropriately
+    return (
+      <main className="flex min-h-screen flex-col items-center justify-center p-4 bg-black text-white">
+        <h1 className="text-2xl font-bold text-red-500">System Error</h1>
+        <p className="mt-2 text-gray-400">{(error as Error).message}</p>
+        <Link href={`/${locale}`} className="mt-4 text-blue-400 hover:underline">
+          {t('back_button')}
+        </Link>
+      </main>
+    );
   }
 
   if (!analysis) {
-    notFound();
+    logDebug(`ProfessionPage: analysis is null, calling notFound()`);
+    // notFound();
+    return (
+        <main className="flex min-h-screen flex-col items-center justify-center p-4 bg-black text-white">
+          <h1 className="text-2xl font-bold text-yellow-500">Analysis Not Found</h1>
+          <p className="mt-2 text-gray-400">ID: {id}</p>
+          <Link href={`/${locale}`} className="mt-4 text-blue-400 hover:underline">
+            {t('back_button')}
+          </Link>
+        </main>
+      );
   }
 
   const result = analysis.analysis_json;
@@ -116,12 +184,14 @@ export default async function ProfessionPage({ params }: { params: Promise<{ id:
     <main className="flex min-h-screen flex-col items-center justify-start md:justify-center p-4 pt-24 pb-12 md:p-8 bg-black text-white relative overflow-y-auto">
       
       {/* Back to Home */}
-      <Link 
-        href={`/${locale}`}
-        className="fixed top-4 left-4 z-50 px-4 py-2 bg-gray-800 hover:bg-gray-700 rounded-lg text-white transition-colors flex items-center gap-2"
-      >
-        ← {t('back_button')}
-      </Link>
+      <div className="w-full max-w-2xl mb-8 flex justify-start">
+        <Link 
+          href={`/${locale}`}
+          className="px-4 py-2 bg-gray-800 hover:bg-gray-700 rounded-lg text-white transition-colors flex items-center gap-2"
+        >
+          ← {t('back_button')}
+        </Link>
+      </div>
 
       <div className="z-10 w-full max-w-2xl flex flex-col items-center">
         <h1 className="text-3xl sm:text-5xl md:text-6xl font-black mb-4 text-center bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 text-transparent bg-clip-text">

@@ -1,0 +1,20 @@
+{
+  "Index": {
+    "title": "NA KE TLA NKA MOSEBETSI OA KA?",
+    "placeholder": "Kenya mosebetsi oa hau (mohlala, Programmer)",
+    "button": "Hlahloba bokamoso",
+    "loading": "E hlahloba...",
+    "risk_label": "Kotsi ea ho iketsetsa",
+    "skills_label": "Tsebo e Sireletsehileng",
+    "tasks_label": "Mesebetsi e kotsing",
+    "verdict": "Kahlolo",
+    "reasoning": "Mabaka",
+    "meta_title": "Na AI e tla nka mosebetsi oa ka? - Tlhahlobo ea mahala ea mosebetsi",
+    "meta_description": "Hlahloba hore na bohlale ba maiketsetso bo kotsi mosebetsing oa hau.Fumana tlhahlobo ea kotsi ea mahala le lenane la litsebo tse sireletsehileng."
+  },
+  "Footer": {
+    "powered_by": "E tšehelitsoe ke",
+    "community": "Ikopanye le sechaba",
+    "statistics": "Lipalo-palo"
+  }
+}

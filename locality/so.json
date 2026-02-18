@@ -1,0 +1,20 @@
+{
+  "Index": {
+    "title": "MIYAAN SHAQADAYGA BADANAYAA?",
+    "placeholder": "Geli xirfadaada (tusaale Programmer)",
+    "button": "Eeg mustaqbalka",
+    "loading": "Falanqaynta...",
+    "risk_label": "Khatarta iswada",
+    "skills_label": "Xirfado badbaado leh",
+    "tasks_label": "Hawlaha khatarta ku jira",
+    "verdict": "Xukun",
+    "reasoning": "Sabab",
+    "meta_title": "AI ma qaadan doonaa shaqadayda? - Falanqaynta shaqada ee bilaashka ah",
+    "meta_description": "Hubi haddii sirdoonka macmalku khatar ku yahay xirfaddaada. Hel falanqayn khatar ah oo bilaash ah iyo liis xirfado badbaado leh."
+  },
+  "Footer": {
+    "powered_by": "Waxaa taageeray",
+    "community": "Ku biir bulshada",
+    "statistics": "Tirakoobka"
+  }
+}

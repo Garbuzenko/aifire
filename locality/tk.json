@@ -1,19 +1,20 @@
 {
   "Index": {
-    "title": "ЗАБЕРЕТ ЛИ ИИ МОЮ РАБОТУ?",
-    "placeholder": "Введите вашу профессию (напр. Программист)",
-    "button": "Проверить будущее",
-    "loading": "Анализирую...",
-    "risk_label": "Риск автоматизации",
-    "skills_label": "Безопасные навыки",
-    "tasks_label": "Задачи под угрозой",
-    "verdict": "Вердикт",
-    "reasoning": "Обоснование",
-    "meta_title": "Заберет ли ИИ мою работу? - Бесплатный анализ карьеры",
-    "meta_description": "Проверьте, угрожает ли искусственный интеллект вашей профессии. Получите бесплатный анализ рисков и список безопасных навыков."
+    "title": "AI meniň işimi alarmy?",
+    "placeholder": "Hünäriňize giriň (mysal üçin Programmist)",
+    "button": "Geljegi barlaň",
+    "loading": "Derňew ...",
+    "risk_label": "Awtomatlaşdyrma töwekgelçiligi",
+    "skills_label": "Ygtybarly başarnyklar",
+    "tasks_label": "Töwekgelçilikli meseleler",
+    "verdict": "Höküm",
+    "reasoning": "Sebäpler",
+    "meta_title": "AI meniň işimi alarmy? - Mugt karýera derňewi",
+    "meta_description": "Emeli intellektiň hünäriňize howp salýandygyny barlaň. Mugt töwekgelçilik derňewini we ygtybarly hünär sanawyny alyň."
   },
   "Footer": {
-    "powered_by": "При поддержке",
-    "community": "Вступайте в сообщество"
+    "powered_by": "Goldaýan",
+    "community": "Bileleşige goşulyň",
+    "statistics": "Statistika"
   }
 }

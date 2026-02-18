@@ -1,19 +1,20 @@
 {
   "Index": {
-    "title": "האם אני אקח את העבודה שלי?",
-    "placeholder": "הזן את המקצוע שלך (למשל מתכנת)",
-    "button": "בדוק את העתיד",
-    "loading": "מנתח...",
-    "risk_label": "סיכון של אוטומציה",
-    "skills_label": "מיומנויות בטוחות",
-    "tasks_label": "משימות בסיכון",
-    "verdict": "פְּסַק דִין",
-    "reasoning": "נימוק",
-    "meta_title": "האם AI ייקח את העבודה שלי?- ניתוח קריירה בחינם",
-    "meta_description": "בדוק אם בינה מלאכותית מהווה איום על המקצוע שלך.קבל ניתוח סיכונים בחינם ורשימת מיומנויות בטוחות."
+    "title": "WILL AI TAKE MY JOB?",
+    "placeholder": "Enter your profession (eg Programmer)",
+    "button": "Check the future",
+    "loading": "Analyzing...",
+    "risk_label": "Risk of automation",
+    "skills_label": "Safe Skills",
+    "tasks_label": "Tasks at risk",
+    "verdict": "Verdict",
+    "reasoning": "Rationale",
+    "meta_title": "Will AI take my job?- Free career analysis",
+    "meta_description": "Check if artificial intelligence is a threat to your profession.Get a free risk analysis and safe skills list."
   },
   "Footer": {
-    "powered_by": "נתמך על ידי",
-    "community": "הצטרף לקהילה"
+    "powered_by": "Supported by",
+    "community": "Join the community",
+    "statistics": "Statistics"
   }
 }

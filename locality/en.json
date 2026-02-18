@@ -10,11 +10,37 @@
     "verdict": "Verdict",
     "reasoning": "Rationale",
     "meta_title": "Will AI take my job?- Free career analysis",
-    "meta_description": "Check if artificial intelligence is a threat to your profession.Get a free risk analysis and safe skills list."
+    "meta_description": "Check if artificial intelligence is a threat to your profession.Get a free risk analysis and safe skills list.",
+    "share": "Share Analysis",
+    "copied": "Copied!",
+    "back_button": "Back",
+    "views": "Views",
+    "profession_not_found": "Profession Not Found",
+    "error_title": "Error",
+    "share_cta_low": "Safe for now! Share the good news 🎉",
+    "share_cta_medium": "Uncertain future... Warn your colleagues ⚠️",
+    "share_cta_high": "High risk! Share to spread awareness 🚨",
+    "share_generic": "Share Analysis",
+    "share_message_low": "I'm safe! My profession ({profession}) has only {risk}% risk of AI automation. Check yours: {url}",
+    "share_message_medium": "Uncertain times. My profession ({profession}) has {risk}% risk of AI automation. Check yours: {url}",
+    "share_message_high": "😱 AI might take my job! {profession} has {risk}% risk of automation. Check your profession here: {url}",
+    "top_risk_today": "🔥 Top Risk Today",
+    "top_safety": "🛡️ Top Safety",
+    "view_all_risk": "View All",
+    "view_all_safe": "View All",
+    "all_professions": "All Professions",
+    "sort_risk_desc": "Highest Risk First",
+    "sort_risk_asc": "Lowest Risk First",
+    "load_more": "Load More",
+    "back_to_home": "Back to Home"
   },
   "Footer": {
     "powered_by": "Supported by",
     "community": "Join the community",
     "statistics": "Statistics"
+  },
+  "LanguageSwitcher": {
+    "select_language": "Select Language",
+    "search_placeholder": "Search language..."
   }
 }

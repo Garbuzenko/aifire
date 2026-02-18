@@ -1,0 +1,20 @@
+{
+  "Index": {
+    "title": "人工智慧會搶走我的工作嗎？",
+    "placeholder": "輸入您的職業（例如程式設計師）",
+    "button": "檢查未來",
+    "loading": "正在分析...",
+    "risk_label": "自動化的風險",
+    "skills_label": "安全技能",
+    "tasks_label": "有風險的任務",
+    "verdict": "判決",
+    "reasoning": "基本原理",
+    "meta_title": "人工智慧會取代我的工作嗎？ - 免費職業分析",
+    "meta_description": "檢查人工智慧是否對您的職業構成威脅。取得免費的風險分析和安全技能清單。"
+  },
+  "Footer": {
+    "powered_by": "支持者",
+    "community": "加入社區",
+    "statistics": "統計數據"
+  }
+}

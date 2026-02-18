@@ -9,7 +9,7 @@ export default function Footer() {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="relative w-full mt-auto border-t border-purple-500/20 bg-black/80 backdrop-blur-xl overflow-hidden">
+    <footer className="relative w-full mt-auto border-t border-purple-500/20 bg-black overflow-hidden">
       {/* Gradient top border effect */}
       <div className="absolute top-0 left-0 w-full h-[1px] bg-gradient-to-r from-transparent via-purple-500 to-transparent opacity-50" />
       
@@ -42,33 +42,6 @@ export default function Footer() {
 
           {/* Social / Community Link */}
           <div className="flex flex-col sm:flex-row items-center gap-4">
-            <motion.div 
-              whileHover={{ y: -2 }}
-              whileTap={{ scale: 0.98 }}
-            >
-              <Link 
-                href="https://datalens.yandex/iew9k9ycrsi02" 
-                target="_blank" 
-                rel="noopener noreferrer"
-                className="group relative flex items-center gap-3 px-5 py-2.5 rounded-full bg-purple-500/5 border border-purple-500/20 hover:bg-purple-500/10 hover:border-purple-500/40 transition-all duration-300 overflow-hidden shadow-[0_0_15px_rgba(168,85,247,0.1)] hover:shadow-[0_0_20px_rgba(168,85,247,0.2)]"
-              >
-                <div className="absolute inset-0 bg-gradient-to-r from-purple-500/10 to-pink-500/10 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
-                
-                <svg 
-                  className="w-5 h-5 text-purple-300/70 group-hover:text-purple-400 transition-colors duration-300" 
-                  fill="none" 
-                  stroke="currentColor" 
-                  viewBox="0 0 24 24" 
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
-                </svg>
-                <span className="text-sm font-medium text-purple-100/90 group-hover:text-white transition-colors relative z-10">
-                  {t('statistics')}
-                </span>
-              </Link>
-            </motion.div>
-
             <motion.div 
               whileHover={{ y: -2 }}
               whileTap={{ scale: 0.98 }}

@@ -1,0 +1,20 @@
+{
+  "Index": {
+    "title": "TANGGAPIN BA NI AI ANG TRABAHO KO?",
+    "placeholder": "Ipasok ang iyong propesyon (hal. Programmer)",
+    "button": "Suriin ang hinaharap",
+    "loading": "Sinusuri...",
+    "risk_label": "Panganib ng automation",
+    "skills_label": "Mga Ligtas na Kasanayan",
+    "tasks_label": "Mga gawaing nasa panganib",
+    "verdict": "Hatol",
+    "reasoning": "Katuwiran",
+    "meta_title": "Kukunin ba ng AI ang aking trabaho?- Libreng pagsusuri sa karera",
+    "meta_description": "Suriin kung ang artificial intelligence ay isang banta sa iyong propesyon. Kumuha ng libreng pagsusuri sa panganib at listahan ng mga ligtas na kasanayan."
+  },
+  "Footer": {
+    "powered_by": "Sinusuportahan ng",
+    "community": "Sumali sa komunidad",
+    "statistics": "Mga istatistika"
+  }
+}

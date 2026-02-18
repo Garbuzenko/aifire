@@ -1,0 +1,20 @@
+{
+  "Index": {
+    "title": "AI SE NIEĦU XOGĦLI?",
+    "placeholder": "Daħħal il-professjoni tiegħek (eż. Programmatur)",
+    "button": "Iċċekkja l-futur",
+    "loading": "Qed tanalizza...",
+    "risk_label": "Riskju ta 'awtomazzjoni",
+    "skills_label": "Ħiliet Sikur",
+    "tasks_label": "Kompiti f'riskju",
+    "verdict": "Verdett",
+    "reasoning": "Motivazzjoni",
+    "meta_title": "L-AI se tieħu xogħli?- Analiżi tal-karriera b'xejn",
+    "meta_description": "Iċċekkja jekk l-intelliġenza artifiċjali hijiex theddida għall-professjoni tiegħek. Ikseb analiżi tar-riskju b'xejn u lista ta 'ħiliet sikuri."
+  },
+  "Footer": {
+    "powered_by": "Appoġġjat minn",
+    "community": "Ingħaqad mal-komunità",
+    "statistics": "Statistika"
+  }
+}

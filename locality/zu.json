@@ -1,0 +1,20 @@
+{
+  "Index": {
+    "title": "NGIYAWUTHATHA UMSEBENZI WAMI?",
+    "placeholder": "Faka umsebenzi wakho (isb. uMhleli)",
+    "button": "Hlola ikusasa",
+    "loading": "Iyahlaziya...",
+    "risk_label": "Ingozi ye-automation",
+    "skills_label": "Amakhono Aphephile",
+    "tasks_label": "Imisebenzi esengozini",
+    "verdict": "Isinqumo",
+    "reasoning": "Isizathu",
+    "meta_title": "Ngabe i-AI izowuthatha umsebenzi wami?- Ukuhlaziya umsebenzi wamahhala",
+    "meta_description": "Hlola ukuthi ubuhlakani bokwenziwa buwusongo yini emsebenzini wakho.Thola ukuhlaziywa kwamahhala kobungozi kanye nohlu lwamakhono aphephile."
+  },
+  "Footer": {
+    "powered_by": "Isekelwe ngu",
+    "community": "Joyina umphakathi",
+    "statistics": "Izibalo"
+  }
+}

@@ -9,11 +9,12 @@
     "tasks_label": "Sarcini cu risc",
     "verdict": "Verdict",
     "reasoning": "Motivație",
-    "meta_title": "Îmi va lua AI slujba?- Analiză gratuită a carierei",
-    "meta_description": "Verificați dacă inteligența artificială este o amenințare pentru profesia dvs. Obțineți o analiză gratuită a riscurilor și o listă de abilități sigure."
+    "meta_title": "Îmi va lua AI slujba? - Analiză gratuită a carierei",
+    "meta_description": "Verificați dacă inteligența artificială este o amenințare pentru profesia dvs. Obțineți o analiză gratuită a riscurilor și o listă de competențe sigure."
   },
   "Footer": {
     "powered_by": "Sprijinit de",
-    "community": "Alăturați-vă comunității"
+    "community": "Alăturați-vă comunității",
+    "statistics": "Statistici"
   }
 }

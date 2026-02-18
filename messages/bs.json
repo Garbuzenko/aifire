@@ -1,0 +1,46 @@
+{
+  "Index": {
+    "title": "HOĆU LI JA PREUZET MOJ POSAO?",
+    "placeholder": "Unesite svoju profesiju (npr. Programer)",
+    "button": "Provjerite budućnost",
+    "loading": "Analiziranje...",
+    "risk_label": "Rizik od automatizacije",
+    "skills_label": "Sigurne vještine",
+    "tasks_label": "Rizični zadaci",
+    "verdict": "Presuda",
+    "reasoning": "Obrazloženje",
+    "meta_title": "Hoće li AI prihvatiti moj posao? - Besplatna analiza karijere",
+    "meta_description": "Provjerite je li umjetna inteligencija prijetnja vašoj profesiji. Nabavite besplatnu analizu rizika i listu sigurnih vještina.",
+    "share": "Share Analysis",
+    "copied": "Kopirano!",
+    "back_button": "Nazad",
+    "views": "Pogledi",
+    "profession_not_found": "Profesija nije pronađena",
+    "error_title": "Greška",
+    "share_cta_low": "Sigurno za sada! Podijelite dobre vijesti 🎉",
+    "share_cta_medium": "Neizvjesna budućnost... Upozorite svoje kolege ⚠️",
+    "share_cta_high": "Visok rizik! Podijelite za širenje svijesti 🚨",
+    "share_generic": "Share Analysis",
+    "share_message_low": "Ja sam siguran! Moja profesija ({profession}) ima samo {risk}% rizika od automatizacije AI. Provjerite svoje: {url}",
+    "share_message_medium": "Neizvesna vremena. Moja profesija ({profession}) ima {risk}% rizika od automatizacije AI. Provjerite svoje: {url}",
+    "share_message_high": "😱 AI bi mogao uzeti moj posao! {profession} ima {risk}% rizika od automatizacije. Provjerite svoju profesiju ovdje: {url}",
+    "top_risk_today": "🔥 Najveći rizik danas",
+    "top_safety": "🛡️ Vrhunska sigurnost",
+    "view_all_risk": "Pogledaj sve",
+    "view_all_safe": "Pogledaj sve",
+    "all_professions": "Sve profesije",
+    "sort_risk_desc": "Najveći rizik prvo",
+    "sort_risk_asc": "Najmanji rizik prvo",
+    "load_more": "Učitaj više",
+    "back_to_home": "Povratak kući"
+  },
+  "Footer": {
+    "powered_by": "Podržano od",
+    "community": "Pridružite se zajednici",
+    "statistics": "Statistika"
+  },
+  "LanguageSwitcher": {
+    "select_language": "Odaberite Jezik",
+    "search_placeholder": "Traži jezik..."
+  }
+}

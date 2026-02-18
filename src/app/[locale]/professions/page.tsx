@@ -78,13 +78,15 @@ function ProfessionsList() {
   };
 
   return (
-    <div className="max-w-4xl mx-auto">
-      <Link 
-        href={`/${locale}`}
-        className="fixed top-4 left-4 z-50 px-4 py-2 bg-gray-800 hover:bg-gray-700 rounded-lg text-white transition-colors flex items-center gap-2 shadow-lg border border-gray-700"
-      >
-        ← {t('back_to_home')}
-      </Link>
+    <div className="max-w-4xl mx-auto pt-4">
+      <div className="mb-6">
+        <Link 
+          href={`/${locale}`}
+          className="inline-flex px-4 py-2 bg-gray-800 hover:bg-gray-700 rounded-lg text-white transition-colors items-center gap-2 shadow-lg border border-gray-700"
+        >
+          ← {t('back_to_home')}
+        </Link>
+      </div>
 
       <div className="flex flex-col md:flex-row justify-between items-center mb-8 gap-4">
         <h1 className="text-3xl md:text-4xl font-black bg-gradient-to-r from-purple-400 to-pink-500 text-transparent bg-clip-text">

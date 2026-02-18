@@ -10,10 +10,11 @@
     "verdict": "Dom",
     "reasoning": "Logisk grund",
     "meta_title": "Kommer AI att ta mitt jobb?- Gratis karriäranalys",
-    "meta_description": "Kontrollera om artificiell intelligens är ett hot mot ditt yrke.Få en gratis riskanalys och säker kompetenslista."
+    "meta_description": "Kontrollera om artificiell intelligens är ett hot mot ditt yrke. Få en kostnadsfri riskanalys och en säker kompetenslista."
   },
   "Footer": {
     "powered_by": "Stöds av",
-    "community": "Gå med i gemenskapen"
+    "community": "Gå med i gemenskapen",
+    "statistics": "Statistik"
   }
 }

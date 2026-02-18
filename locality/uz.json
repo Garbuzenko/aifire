@@ -9,11 +9,12 @@
     "tasks_label": "Xavf ostidagi vazifalar",
     "verdict": "Hukm",
     "reasoning": "Mantiqiy asos",
-    "meta_title": "AI mening ishimni oladimi?- Bepul martaba tahlili",
-    "meta_description": "Sun'iy intellekt kasbingiz uchun tahdid ekanligini tekshiring.Bepul xavf tahlili va xavfsiz ko'nikmalar ro'yxatini oling."
+    "meta_title": "AI mening ishimni oladimi? - Bepul martaba tahlili",
+    "meta_description": "Sun'iy intellekt kasbingiz uchun tahdid ekanligini tekshiring. Bepul xavf tahlili va xavfsiz ko'nikmalar ro'yxatini oling."
   },
   "Footer": {
     "powered_by": "tomonidan qo'llab-quvvatlanadi",
-    "community": "Jamiyatga qoʻshiling"
+    "community": "Jamiyatga qoʻshiling",
+    "statistics": "Statistika"
   }
 }

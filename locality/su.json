@@ -1,0 +1,20 @@
+{
+  "Index": {
+    "title": "Naha AI bakal nyandak padamelan abdi?",
+    "placeholder": "Lebetkeun profési anjeun (misalna Programmer)",
+    "button": "Pariksa mangsa nu bakal datang",
+    "loading": "Nganalisis...",
+    "risk_label": "Résiko automation",
+    "skills_label": "Kaahlian Aman",
+    "tasks_label": "Tugas di résiko",
+    "verdict": "Putusan",
+    "reasoning": "Alesan",
+    "meta_title": "Naha AI bakal nyandak padamelan abdi? - Analisis karir gratis",
+    "meta_description": "Pariksa naha kecerdasan jieunan mangrupakeun ancaman pikeun profési anjeun. Meunang analisis resiko bébas jeung daptar kaahlian aman."
+  },
+  "Footer": {
+    "powered_by": "Dirojong ku",
+    "community": "Miluan komunitas",
+    "statistics": "Statistik"
+  }
+}

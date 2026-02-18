@@ -1,0 +1,20 @@
+{
+  "Index": {
+    "title": "XANA AI YI TA TEKA NTIRHO WA MINA?",
+    "placeholder": "Nghena eka phurofexini ya wena (xikombiso Programmer) .",
+    "button": "Languta vumundzuku",
+    "loading": "Ku xopaxopa...",
+    "risk_label": "Khombo ra ku tirhisa michini",
+    "skills_label": "Vuswikoti lebyi Hlayisekeke",
+    "tasks_label": "Mintirho leyi nga ekhombyeni",
+    "verdict": "Xiboho",
+    "reasoning": "Xivangelo",
+    "meta_title": "Xana AI yi ta teka ntirho wa mina?- Free career analysis",
+    "meta_description": "Languta loko vutlhari byo endliwa byi ri nxungeto eka phurofexini ya wena.Kuma nxopaxopo wa khombo wa mahala na nxaxamelo wa vuswikoti lebyi hlayisekeke."
+  },
+  "Footer": {
+    "powered_by": "Ku seketeriwa hi",
+    "community": "Hlanganyela na vaaki",
+    "statistics": "Tinhlayohlayo"
+  }
+}

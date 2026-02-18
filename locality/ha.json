@@ -1,0 +1,20 @@
+{
+  "Index": {
+    "title": "ZAN DAUKI AIKINA?",
+    "placeholder": "Shigar da sana'ar ku (misali Programmer)",
+    "button": "Duba gaba",
+    "loading": "Ana nazari...",
+    "risk_label": "Hadarin aiki da kai",
+    "skills_label": "Safe gwaninta",
+    "tasks_label": "Ayyukan da ke cikin haɗari",
+    "verdict": "Hukunci",
+    "reasoning": "Dalilin dalili",
+    "meta_title": "Shin AI za ta ɗauki aikina? - Binciken aiki na kyauta",
+    "meta_description": "Bincika idan basirar wucin gadi barazana ce ga sana'ar ku.Samu nazarin haɗari kyauta da jerin ƙwarewa masu aminci."
+  },
+  "Footer": {
+    "powered_by": "Goyan bayan",
+    "community": "Shiga cikin al'umma",
+    "statistics": "Kididdiga"
+  }
+}

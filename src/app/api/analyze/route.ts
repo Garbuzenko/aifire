@@ -53,7 +53,7 @@ export async function POST(req: Request) {
     // Check if analysis exists in DB
     try {
       const [rows] = await pool.execute<RowDataPacket[]>(
-        'SELECT id, analysis_json, request_count, is_censored FROM profession_analysis WHERE profession = ? AND locale = ? AND is_censored = 0',
+        'SELECT id, analysis_json, request_count, is_censored FROM profession_analysis WHERE profession = ? AND locale = ?',
         [normalizedJobTitle, locale]
       );
 
@@ -67,10 +67,28 @@ export async function POST(req: Request) {
         );
 
         if (existingAnalysis.is_censored) {
-             return NextResponse.json({ ...existingAnalysis.analysis_json });
+             // Ensure analysis_json is an object if it comes as string from DB
+             let jsonResponse = existingAnalysis.analysis_json;
+             if (typeof jsonResponse === 'string') {
+                try {
+                    jsonResponse = JSON.parse(jsonResponse);
+                } catch (e) {
+                    // keep as is
+                }
+             }
+             return NextResponse.json({ ...jsonResponse });
         }
 
-        return NextResponse.json({ ...existingAnalysis.analysis_json, id: existingAnalysis.id });
+        let jsonResponse = existingAnalysis.analysis_json;
+        if (typeof jsonResponse === 'string') {
+            try {
+                jsonResponse = JSON.parse(jsonResponse);
+            } catch (e) {
+                // keep as is
+            }
+        }
+
+        return NextResponse.json({ ...jsonResponse, id: existingAnalysis.id });
       }
     } catch (dbError) {
       console.error("Database error (read):", dbError);
@@ -147,9 +165,25 @@ export async function POST(req: Request) {
         ]
       );
       insertId = result.insertId;
-    } catch (dbError) {
-      console.error("Database error (write):", dbError);
-      logError(dbError);
+    } catch (dbError: any) {
+      if (dbError.code === 'ER_DUP_ENTRY') {
+          console.log(`Duplicate entry for ${normalizedJobTitle} (${locale}), fetching existing ID...`);
+          try {
+             const [rows] = await pool.execute<RowDataPacket[]>(
+                'SELECT id FROM profession_analysis WHERE profession = ? AND locale = ?',
+                [normalizedJobTitle, locale]
+            );
+            if (rows.length > 0) {
+                insertId = rows[0].id;
+            }
+          } catch (selectError) {
+             console.error("Failed to fetch existing ID after duplicate error:", selectError);
+             logError(selectError);
+          }
+      } else {
+          console.error("Database error (write):", dbError);
+          logError(dbError);
+      }
       // Continue even if save fails
     }
 

@@ -1,0 +1,20 @@
+{
+  "Index": {
+    "title": "KUV YUAV UA LI CAS?",
+    "placeholder": "Nkag mus rau koj txoj haujlwm (xws li Programmer)",
+    "button": "Tshawb xyuas yav tom ntej",
+    "loading": "Kev tshuaj ntsuam...",
+    "risk_label": "Risk ntawm automation",
+    "skills_label": "Kev txawj ntse",
+    "tasks_label": "Cov hauj lwm muaj kev pheej hmoo",
+    "verdict": "Txiav txim",
+    "reasoning": "Kev xav",
+    "meta_title": "Puas yuav AI coj kuv txoj haujlwm? - Kev tshuaj xyuas kev ua haujlwm pub dawb",
+    "meta_description": "Tshawb xyuas yog tias kev txawj ntse txawj ntse yog ib qho kev hem thawj rau koj txoj haujlwm. Tau txais kev soj ntsuam kev pheej hmoo pub dawb thiab daim ntawv teev kev txawj ntse."
+  },
+  "Footer": {
+    "powered_by": "Txhawb nqa los ntawm",
+    "community": "Koom nrog zej zog",
+    "statistics": "Kev txheeb cais"
+  }
+}

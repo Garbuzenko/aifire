@@ -1,0 +1,20 @@
+{
+  "Index": {
+    "title": "Apa AI bakal njupuk PEKERJAAN?",
+    "placeholder": "Ketik profesi sampeyan (eg Programmer)",
+    "button": "Priksa masa depan",
+    "loading": "Nganalisis...",
+    "risk_label": "Risiko otomatisasi",
+    "skills_label": "Skills Aman",
+    "tasks_label": "Tugas ing resiko",
+    "verdict": "Putusan",
+    "reasoning": "Rasional",
+    "meta_title": "Apa AI bakal njupuk proyekku?- Analisis karir gratis",
+    "meta_description": "Priksa manawa intelijen buatan minangka ancaman kanggo profesi sampeyan. Entuk analisis risiko gratis lan dhaptar katrampilan sing aman."
+  },
+  "Footer": {
+    "powered_by": "Didhukung dening",
+    "community": "Gabung karo komunitas",
+    "statistics": "Statistik"
+  }
+}

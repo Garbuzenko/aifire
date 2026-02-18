@@ -16,13 +16,13 @@ interface AnalysisResult {
   is_profession?: boolean;
 }
 
-const BASE_URL = 'http://localhost:3011';
+const TEST_TEST_BASE_URL = 'http://localhost:3000';
 const LOCALE = 'en';
 
 async function testAnalyze(jobTitle: string): Promise<AnalysisResult | null> {
   try {
     console.log(`\n🔍 Testing: "${jobTitle}"`);
-    const response = await fetch(`${BASE_URL}/api/analyze`, {
+    const response = await fetch(`${TEST_BASE_URL}/api/analyze`, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ jobTitle, locale: LOCALE }),
@@ -181,8 +181,8 @@ async function runTests() {
 // Check if server is running before starting tests
 async function checkServer() {
   try {
-    console.log(`Checking if server is running at ${BASE_URL}...`);
-    const response = await fetch(`${BASE_URL}/api/languages`);
+    console.log(`Checking if server is running at ${TEST_BASE_URL}...`);
+    const response = await fetch(`${TEST_BASE_URL}/api/languages`);
     if (response.ok) {
       console.log('✅ Server is running\n');
       return true;

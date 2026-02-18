@@ -1,0 +1,20 @@
+{
+  "Index": {
+    "title": "AI AKOZUA MOSALA NA NGAI?",
+    "placeholder": "Kota na mosala na yo (ndakisa Programmeur) .",
+    "button": "Talá makambo oyo ekosalema na mikolo ezali koya",
+    "loading": "Kosala analize ya...",
+    "risk_label": "Risque ya automation",
+    "skills_label": "Makoki ya Libateli",
+    "tasks_label": "Misala oyo ezali na likama",
+    "verdict": "Ekateli oyo ezwamaki",
+    "reasoning": "Ntina ya ntina",
+    "meta_title": "AI ekozua musala na ngai?- Analyse ya carrière ya ofele",
+    "meta_description": "Tala soki intelligence artificielle ezali menace pona profession na yo.Zwa analyse ya ba risques ya ofele pe liste ya ba compétences ya sécurité."
+  },
+  "Footer": {
+    "powered_by": "Esungami na",
+    "community": "Sangisa bato ya mboka",
+    "statistics": "Statistiques ya ba statistiques"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "Index": {
+    "title": "A FYDD AI YN CYMRYD FY SWYDD?",
+    "placeholder": "Ewch i mewn i'ch proffesiwn (ee Rhaglennydd)",
+    "button": "Gwiriwch y dyfodol",
+    "loading": "Wrthi'n dadansoddi...",
+    "risk_label": "Risg o awtomeiddio",
+    "skills_label": "Sgiliau Diogel",
+    "tasks_label": "Tasgau mewn perygl",
+    "verdict": "Rheithfarn",
+    "reasoning": "Rhesymeg",
+    "meta_title": "A fydd AI yn cymryd fy swydd? - Dadansoddiad gyrfa am ddim",
+    "meta_description": "Gwiriwch a yw deallusrwydd artiffisial yn fygythiad i'ch proffesiwn.Cael dadansoddiad risg am ddim a rhestr sgiliau diogel."
+  },
+  "Footer": {
+    "powered_by": "Cefnogir gan",
+    "community": "Ymunwch â'r gymuned",
+    "statistics": "Ystadegau"
+  }
+}
