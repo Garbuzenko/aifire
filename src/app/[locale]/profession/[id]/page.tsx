@@ -65,9 +65,26 @@ export async function generateMetadata({ params }: { params: Promise<{ id: strin
     const profession = rows[0].profession;
     const t = await getTranslations({ locale, namespace: 'Index' });
 
+    const title = `${profession} - ${t('meta_title')}`;
+    const description = `${t('meta_description')} - ${profession}`;
+
     return {
-      title: `${profession} - ${t('meta_title')}`,
-      description: `${t('meta_description')} - ${profession}`,
+      title,
+      description,
+      openGraph: {
+        title,
+        description,
+        url: `/${locale}/profession/${id}`,
+        type: 'article',
+      },
+      twitter: {
+        card: 'summary_large_image',
+        title,
+        description,
+      },
+      alternates: {
+        canonical: `/${locale}/profession/${id}`,
+      },
     };
   } catch (error) {
     logDebug(`generateMetadata error: ${error}`);

@@ -15,10 +15,39 @@ export async function generateMetadata({
 }) {
   const { locale } = await params;
   const t = await getTranslations({locale, namespace: 'Index'});
+  const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || 'https://ai-fire.ru';
  
   return {
     title: t('meta_title'),
-    description: t('meta_description')
+    description: t('meta_description'),
+    metadataBase: new URL(baseUrl),
+    alternates: {
+      canonical: `/${locale}`,
+    },
+    openGraph: {
+      title: t('meta_title'),
+      description: t('meta_description'),
+      url: `/${locale}`,
+      siteName: 'AI Fire',
+      locale: locale,
+      type: 'website',
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: t('meta_title'),
+      description: t('meta_description'),
+    },
+    robots: {
+      index: true,
+      follow: true,
+      googleBot: {
+        index: true,
+        follow: true,
+        'max-video-preview': -1,
+        'max-image-preview': 'large',
+        'max-snippet': -1,
+      },
+    },
   };
 }
 

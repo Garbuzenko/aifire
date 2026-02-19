@@ -49,3 +49,13 @@
   - Displays these lists as "🔥 Top Risk Today" and "🛡️ Top Safety" on the main page.
   - Each profession links to its detailed analysis page.
   - Only non-censored professions (`is_censored = false`) are included.
+
+## SEO Improvements
+- **Goal**: Enhance search engine visibility and social sharing.
+- **Mechanism**:
+  - **Dynamic Sitemap**: `sitemap.xml` is automatically generated, including all supported locales and recent profession analysis pages.
+  - **Robots.txt**: `robots.txt` is dynamically generated to guide crawlers.
+  - **Metadata**: Enhanced metadata including Open Graph and Twitter Card tags for better social sharing previews.
+  - **Canonical URLs**: Added canonical tags to prevent duplicate content issues across locales.
+  - **Manifest**: Added `manifest.json` for PWA support.
+  - **Locales**: Centralized locale configuration in `src/locales.ts` to support all available languages.

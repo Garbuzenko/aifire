@@ -17,10 +17,8 @@ function logDebug(message: string) {
   }
 }
  
-const locales = [
-  'en', 'ru', 'zh-CN', 'hi', 'sr'
-];
- 
+import { locales } from './locales';
+
 export default getRequestConfig(async ({requestLocale}) => {
   const locale = await requestLocale;
   

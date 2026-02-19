@@ -75,6 +75,19 @@ export async function initDB() {
         console.error('Failed to add prof_type column:', e);
       }
     }
+
+    await connection.query(`
+      CREATE TABLE IF NOT EXISTS sitemap (
+        id INT AUTO_INCREMENT PRIMARY KEY,
+        url VARCHAR(255) NOT NULL UNIQUE,
+        last_modified DATETIME,
+        change_frequency VARCHAR(20),
+        priority FLOAT,
+        created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+        updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
+      ) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+    `);
+
     console.log('Database initialized successfully');
   } catch (error) {
     console.error('Database initialization failed:', error);
