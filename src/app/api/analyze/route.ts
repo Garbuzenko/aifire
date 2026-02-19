@@ -118,6 +118,7 @@ export async function POST(req: Request) {
 
       JSON Structure required:
       {
+        "normalized_profession": (string, corrected spelling, singular form, lowercase, no extra punctuation, in the same language as input),
         "is_profession": (boolean),
         "is_censored": (boolean),
         "prof_type": (string, exactly one from the list above),
@@ -150,13 +151,56 @@ export async function POST(req: Request) {
       return NextResponse.json({ error: 'Invalid AI response' }, { status: 500 });
     }
 
+    let professionToSave = normalizedJobTitle;
+
+    // Check if AI suggests a better normalized form
+    if (data.normalized_profession) {
+        const aiNormalized = data.normalized_profession.trim().toLowerCase();
+        if (aiNormalized !== normalizedJobTitle && aiNormalized.length > 0) {
+            try {
+                // Check if this normalized version already exists
+                const [rows] = await pool.execute<RowDataPacket[]>(
+                    'SELECT id, analysis_json, request_count, is_censored FROM profession_analysis WHERE profession = ? AND locale = ?',
+                    [aiNormalized, locale]
+                );
+
+                if (rows.length > 0) {
+                    const existingAnalysis = rows[0];
+                    
+                    // Increment request count for the existing record
+                    await pool.execute(
+                        'UPDATE profession_analysis SET request_count = request_count + 1 WHERE id = ?',
+                        [existingAnalysis.id]
+                    );
+
+                    let jsonResponse = existingAnalysis.analysis_json;
+                    if (typeof jsonResponse === 'string') {
+                        try { jsonResponse = JSON.parse(jsonResponse); } catch (e) {}
+                    }
+                    
+                    if (existingAnalysis.is_censored) {
+                        return NextResponse.json({ ...jsonResponse });
+                    }
+                    
+                    return NextResponse.json({ ...jsonResponse, id: existingAnalysis.id });
+                }
+                
+                // If not found, we will save the normalized version
+                professionToSave = aiNormalized;
+            } catch (e) {
+                console.error("Error checking normalized profession:", e);
+                // Continue with original if check fails
+            }
+        }
+    }
+
     // Save to DB
     let insertId: number | undefined;
     try {
       const [result] = await pool.execute<ResultSetHeader>(
         'INSERT INTO profession_analysis (profession, locale, analysis_json, risk_percentage, is_censored, prof_type) VALUES (?, ?, ?, ?, ?, ?)',
         [
-            normalizedJobTitle, 
+            professionToSave, 
             locale, 
             JSON.stringify(data), 
             data.risk_score || 0, 
@@ -167,11 +211,11 @@ export async function POST(req: Request) {
       insertId = result.insertId;
     } catch (dbError: any) {
       if (dbError.code === 'ER_DUP_ENTRY') {
-          console.log(`Duplicate entry for ${normalizedJobTitle} (${locale}), fetching existing ID...`);
+          console.log(`Duplicate entry for ${professionToSave} (${locale}), fetching existing ID...`);
           try {
              const [rows] = await pool.execute<RowDataPacket[]>(
                 'SELECT id FROM profession_analysis WHERE profession = ? AND locale = ?',
-                [normalizedJobTitle, locale]
+                [professionToSave, locale]
             );
             if (rows.length > 0) {
                 insertId = rows[0].id;

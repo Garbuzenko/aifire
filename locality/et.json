@@ -10,11 +10,37 @@
     "verdict": "Kohtuotsus",
     "reasoning": "Põhjendus",
     "meta_title": "Kas tehisintellekt võtab mu töö? - tasuta karjäärianalüüs",
-    "meta_description": "Kontrollige, kas tehisintellekt ohustab teie elukutset. Hankige tasuta riskianalüüs ja ohutute oskuste loend."
+    "meta_description": "Kontrollige, kas tehisintellekt ohustab teie elukutset. Hankige tasuta riskianalüüs ja ohutute oskuste loend.",
+    "share": "Jagage analüüsi",
+    "copied": "Kopeeritud!",
+    "back_button": "Tagasi",
+    "views": "Vaated",
+    "profession_not_found": "Ametit ei leitud",
+    "error_title": "Viga",
+    "share_cta_low": "Hetkel ohutu! Jaga head uudist 🎉",
+    "share_cta_medium": "Ebakindel tulevik... Hoiatage kolleege ⚠️",
+    "share_cta_high": "Kõrge risk! Jagage teadlikkuse levitamiseks 🚨",
+    "share_generic": "Jagage analüüsi",
+    "share_message_low": "Olen ohutu! Minu elukutsel ({profession}) on tehisintellekti automatiseerimise risk ainult {risk}%. Kontrollige oma: {url}",
+    "share_message_medium": "Ebakindlad ajad. Minu elukutsel ({profession}) on tehisintellekti automatiseerimise risk {risk}%. Kontrollige oma: {url}",
+    "share_message_high": "😱 AI võib mu töö ära võtta! {profession}-l on {risk}% automatiseerimise oht. Kontrolli oma elukutset siit: {url}",
+    "top_risk_today": "🔥 Suurim risk täna",
+    "top_safety": "🛡️ Suurim ohutus",
+    "view_all_risk": "Kuva kõik",
+    "view_all_safe": "Kuva kõik",
+    "all_professions": "Kõik elukutsed",
+    "sort_risk_desc": "Esmalt kõrgeim risk",
+    "sort_risk_asc": "Madalaim risk kõigepealt",
+    "load_more": "Laadige rohkem",
+    "back_to_home": "Tagasi avalehele"
   },
   "Footer": {
     "powered_by": "Toetavad",
     "community": "Liituge kogukonnaga",
     "statistics": "Statistika"
+  },
+  "LanguageSwitcher": {
+    "select_language": "Valige keel",
+    "search_placeholder": "Otsi keel..."
   }
 }

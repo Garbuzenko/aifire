@@ -10,11 +10,37 @@
     "verdict": "Uitspraak",
     "reasoning": "Grondgedachte",
     "meta_title": "Zal AI mijn baan overnemen? - Gratis loopbaananalyse",
-    "meta_description": "Controleer of kunstmatige intelligentie een bedreiging is voor uw beroep. Ontvang een gratis risicoanalyse en lijst met veilige vaardigheden."
+    "meta_description": "Controleer of kunstmatige intelligentie een bedreiging is voor uw beroep. Ontvang een gratis risicoanalyse en lijst met veilige vaardigheden.",
+    "share": "Analyse van aandelen",
+    "copied": "Gekopieerd!",
+    "back_button": "Rug",
+    "views": "Bekeken",
+    "profession_not_found": "Beroep niet gevonden",
+    "error_title": "Fout",
+    "share_cta_low": "Veilig voor nu! Deel het goede nieuws 🎉",
+    "share_cta_medium": "Onzekere toekomst... Waarschuw je collega's ⚠️",
+    "share_cta_high": "Hoog risico! Deel om het bewustzijn te verspreiden 🚨",
+    "share_generic": "Analyse van aandelen",
+    "share_message_low": "Ik ben veilig! Mijn beroep ({profession}) heeft slechts een risico van {risk}% op AI-automatisering. Controleer de jouwe: {url}",
+    "share_message_medium": "Onzekere tijden. Mijn beroep ({profession}) heeft een risico van {risk}% op AI-automatisering. Controleer de jouwe: {url}",
+    "share_message_high": "😱 AI zou mijn baan kunnen overnemen! {profession} heeft een risico van automatisering van {risk}%. Controleer hier uw beroep: {url}",
+    "top_risk_today": "🔥Toprisico vandaag",
+    "top_safety": "🛡️ Topveiligheid",
+    "view_all_risk": "Bekijk alles",
+    "view_all_safe": "Bekijk alles",
+    "all_professions": "Alle beroepen",
+    "sort_risk_desc": "Hoogste risico eerst",
+    "sort_risk_asc": "Laagste risico eerst",
+    "load_more": "Laad meer",
+    "back_to_home": "Terug naar Thuis"
   },
   "Footer": {
     "powered_by": "Ondersteund door",
     "community": "Sluit je aan bij de gemeenschap",
     "statistics": "Statistieken"
+  },
+  "LanguageSwitcher": {
+    "select_language": "Selecteer Taal",
+    "search_placeholder": "Zoektaal..."
   }
 }

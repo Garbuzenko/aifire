@@ -9,11 +9,38 @@
     "tasks_label": "Úkoly v ohrožení",
     "verdict": "Výrok",
     "reasoning": "Odůvodnění",
-    "meta_title": "Vezme mi AI práci?- bezplatná analýza kariéry",
-    "meta_description": "Zkontrolujte, zda umělá inteligence není hrozbou pro vaši profesi.Získejte bezplatnou analýzu rizik a seznam bezpečných dovedností."
+    "meta_title": "Vezme AI mou práci?- Bezplatná kariérní analýza",
+    "meta_description": "Zkontrolujte, zda umělá inteligence není hrozbou pro vaši profesi. Získejte bezplatnou analýzu rizik a seznam bezpečných dovedností.",
+    "share": "Analýza sdílení",
+    "copied": "Zkopírováno!",
+    "back_button": "Zadní",
+    "views": "Pohledy",
+    "profession_not_found": "Profese nenalezena",
+    "error_title": "Chyba",
+    "share_cta_low": "Zatím v bezpečí! Sdílejte dobré zprávy 🎉",
+    "share_cta_medium": "Nejistá budoucnost... Varujte své kolegy ⚠️",
+    "share_cta_high": "Vysoké riziko! Sdílejte pro šíření povědomí 🚨",
+    "share_generic": "Analýza sdílení",
+    "share_message_low": "Jsem v bezpečí! Moje profese ({profession}) má pouze {risk}% riziko automatizace AI. Zkontrolujte svůj: {url}",
+    "share_message_medium": "Nejisté časy. Moje profese ({profession}) má {risk}% riziko automatizace AI. Zkontrolujte svůj: {url}",
+    "share_message_high": "😱 AI mi možná vezme práci! {profession} má {risk}% riziko automatizace. Zkontrolujte svou profesi zde: {url}",
+    "top_risk_today": "🔥 Dnes nejvyšší riziko",
+    "top_safety": "🛡️ Nejvyšší bezpečnost",
+    "view_all_risk": "Zobrazit vše",
+    "view_all_safe": "Zobrazit vše",
+    "all_professions": "Všechny profese",
+    "sort_risk_desc": "Nejvyšší riziko na prvním místě",
+    "sort_risk_asc": "Nejdříve nejnižší riziko",
+    "load_more": "Načíst více",
+    "back_to_home": "Zpět na domovskou stránku"
   },
   "Footer": {
     "powered_by": "Podporováno",
-    "community": "Připojte se ke komunitě"
+    "community": "Připojte se ke komunitě",
+    "statistics": "Statistika"
+  },
+  "LanguageSwitcher": {
+    "select_language": "Vyberte Jazyk",
+    "search_placeholder": "Vyhledat jazyk..."
   }
 }

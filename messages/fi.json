@@ -9,11 +9,38 @@
     "tasks_label": "Tehtävät vaarassa",
     "verdict": "Tuomio",
     "reasoning": "Perustelut",
-    "meta_title": "Ottaako tekoäly työni?- Ilmainen uraanalyysi",
-    "meta_description": "Tarkista, onko tekoäly uhka ammattillesi.Hanki ilmainen riskianalyysi ja turvallisten taitojen luettelo."
+    "meta_title": "Ottaako tekoäly työni? - Ilmainen uraanalyysi",
+    "meta_description": "Tarkista, onko tekoäly uhka ammattillesi. Hanki ilmainen riskianalyysi ja turvallisten taitojen luettelo.",
+    "share": "Jaa analyysi",
+    "copied": "Kopioitu!",
+    "back_button": "Takaisin",
+    "views": "Näkymät",
+    "profession_not_found": "Ammattia ei löydy",
+    "error_title": "Virhe",
+    "share_cta_low": "Turvallista toistaiseksi! Jaa hyvä uutinen 🎉",
+    "share_cta_medium": "Epävarma tulevaisuus... Varoita kollegoitasi ⚠️",
+    "share_cta_high": "Suuri riski! Jaa tietoisuuden leviämiseksi 🚨",
+    "share_generic": "Jaa analyysi",
+    "share_message_low": "Olen turvassa! Ammatissani ({profession}) on vain {risk} % riski tekoälyautomaatiosta. Tarkista omasi: {url}",
+    "share_message_medium": "Epävarmat ajat. Ammatissani ({profession}) on {riski} %:n riski tekoälyautomaatiosta. Tarkista omasi: {url}",
+    "share_message_high": "😱 Tekoäly saattaa viedä työni! {ammatilla} on {riski} % automaation riski. Tarkista ammattisi täältä: {url}",
+    "top_risk_today": "🔥 Suurin riski tänään",
+    "top_safety": "🛡️ Huipputurvallisuus",
+    "view_all_risk": "Näytä kaikki",
+    "view_all_safe": "Näytä kaikki",
+    "all_professions": "Kaikki ammatit",
+    "sort_risk_desc": "Korkein riski ensin",
+    "sort_risk_asc": "Pienin riski ensin",
+    "load_more": "Lataa lisää",
+    "back_to_home": "Takaisin etusivulle"
   },
   "Footer": {
     "powered_by": "Tukee",
-    "community": "Liity yhteisöön"
+    "community": "Liity yhteisöön",
+    "statistics": "Tilastot"
+  },
+  "LanguageSwitcher": {
+    "select_language": "Valitse Kieli",
+    "search_placeholder": "Hae kieli..."
   }
 }

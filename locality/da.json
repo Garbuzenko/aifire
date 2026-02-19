@@ -10,11 +10,37 @@
     "verdict": "Dom",
     "reasoning": "Begrundelse",
     "meta_title": "Vil AI tage mit job?- Gratis karriereanalyse",
-    "meta_description": "Tjek, om kunstig intelligens er en trussel mod dit erhverv. Få en gratis risikoanalyse og sikker færdighedsliste."
+    "meta_description": "Tjek, om kunstig intelligens er en trussel mod dit erhverv. Få en gratis risikoanalyse og sikker færdighedsliste.",
+    "share": "Aktieanalyse",
+    "copied": "Kopieret!",
+    "back_button": "Tilbage",
+    "views": "Visninger",
+    "profession_not_found": "Erhverv ikke fundet",
+    "error_title": "Fejl",
+    "share_cta_low": "Sikker for nu! Del den gode nyhed 🎉",
+    "share_cta_medium": "Uvis fremtid... Advar dine kollegaer ⚠️",
+    "share_cta_high": "Høj risiko! Del for at udbrede kendskabet 🚨",
+    "share_generic": "Aktieanalyse",
+    "share_message_low": "Jeg er i sikkerhed! Mit erhverv ({profession}) har kun {risk} % risiko for AI-automatisering. Tjek din: {url}",
+    "share_message_medium": "Usikre tider. Mit erhverv ({profession}) har {risk} % risiko for AI-automatisering. Tjek din: {url}",
+    "share_message_high": "😱 AI tager måske mit job! {profession} har {risk} % risiko for automatisering. Tjek dit erhverv her: {url}",
+    "top_risk_today": "🔥 Toprisiko i dag",
+    "top_safety": "🛡️ Top sikkerhed",
+    "view_all_risk": "Se alle",
+    "view_all_safe": "Se alle",
+    "all_professions": "Alle erhverv",
+    "sort_risk_desc": "Højeste risiko først",
+    "sort_risk_asc": "Laveste risiko først",
+    "load_more": "Indlæs mere",
+    "back_to_home": "Tilbage til Hjemmet"
   },
   "Footer": {
     "powered_by": "Støttet af",
     "community": "Deltag i fællesskabet",
     "statistics": "Statistik"
+  },
+  "LanguageSwitcher": {
+    "select_language": "Vælg sprog",
+    "search_placeholder": "Søg sprog..."
   }
 }
